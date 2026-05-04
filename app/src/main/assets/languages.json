@@ -1,0 +1,767 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "language_code": "af",
+      "country_code": "ZA",
+      "flag": "fl_za",
+      "language": "Afrikaans"
+    },
+    {
+      "id": 2,
+      "language_code": "sq",
+      "country_code": "AL",
+      "flag": "fl_al",
+      "language": "Albanian"
+    },
+    {
+      "id": 3,
+      "language_code": "am",
+      "country_code": "ET",
+      "flag": "fl_et",
+      "language": "Amharic"
+    },
+    {
+      "id": 4,
+      "language_code": "ar",
+      "country_code": "SA",
+      "flag": "fl_sa",
+      "language": "Arabic"
+    },
+    {
+      "id": 5,
+      "language_code": "hy",
+      "country_code": "AM",
+      "flag": "fl_am",
+      "language": "Armenian"
+    },
+    {
+      "id": 6,
+      "language_code": "az",
+      "country_code": "AZ",
+      "flag": "fl_az",
+      "language": "Azeerbaijani"
+    },
+    {
+      "id": 7,
+      "language_code": "eu",
+      "country_code": "ES",
+      "flag": "fl_es",
+      "language": "Basque"
+    },
+    {
+      "id": 8,
+      "language_code": "be",
+      "country_code": "BY",
+      "flag": "fl_by",
+      "language": "Belarusian"
+    },
+    {
+      "id": 9,
+      "language_code": "bn",
+      "country_code": "BD",
+      "flag": "fl_bd",
+      "language": "Bangla"
+    },
+    {
+      "id": 10,
+      "language_code": "bs",
+      "country_code": "BA",
+      "flag": "fl_ba",
+      "language": "Bosnian"
+    },
+    {
+      "id": 11,
+      "language_code": "bg",
+      "country_code": "BG",
+      "flag": "fl_bg",
+      "language": "Bulgarian"
+    },
+    {
+      "id": 12,
+      "language_code": "ca",
+      "country_code": "AD",
+      "flag": "fl_ad",
+      "language": "Catalan"
+    },
+      {
+"id": 106,
+"language_code": "zh",
+"country_code": "HK",
+"flag": "fl_hk",
+"language": "Cantonese (Chinese)"
+},
+    {
+      "id": 13,
+      "language_code": "ceb",
+      "country_code": "PH",
+      "flag": "fl_ph",
+      "language": "Cebuano"
+    },
+    {
+      "id": 14,
+      "language_code": "zh",
+      "country_code": "CN",
+      "flag": "fl_cn",
+      "language": "Chinese (Simplified)"
+    },
+    {
+      "id": 15,
+      "language_code": "zh",
+      "country_code": "TW",
+      "flag": "fl_tw",
+      "language": "Chinese (Traditional)"
+    },
+    {
+      "id": 16,
+      "language_code": "hr",
+      "country_code": "HR",
+      "flag": "fl_hr",
+      "language": "Croatian"
+    },
+    {
+      "id": 108,
+      "language_code": "co",
+      "country_code": "FR",
+      "flag": "fl_co",
+      "language": "Corsican"
+    },
+    {
+      "id": 17,
+      "language_code": "cs",
+      "country_code": "CZ",
+      "flag": "fl_cz",
+      "language": "Czech"
+    },
+    {
+      "id": 18,
+      "language_code": "da",
+      "country_code": "DK",
+      "flag": "fl_dk",
+      "language": "Danish"
+    },
+    {
+      "id": 19,
+      "language_code": "nl",
+      "country_code": "NL",
+      "flag": "fl_nl",
+      "language": "Dutch"
+    },
+    {
+      "id": 20,
+      "language_code": "en",
+      "country_code": "GB",
+      "flag": "fl_gb",
+      "language": "English (UK)"
+    },
+    {
+      "id": 21,
+      "language_code": "en",
+      "country_code": "US",
+      "flag": "fl_us",
+      "language": "English (US)"
+    },
+    {
+      "id": 22,
+      "language_code": "en",
+      "country_code": "AU",
+      "flag": "fl_au",
+      "language": "English (Australia)"
+    },
+    {
+      "id": 23,
+      "language_code": "eo",
+      "country_code": "",
+      "flag": "fl_esperanto",
+      "language": "Esperanto"
+    },
+    {
+      "id": 24,
+      "language_code": "et",
+      "country_code": "EE",
+      "flag": "fl_ee",
+      "language": "Estonian"
+    },
+    {
+      "id": 25,
+      "language_code": "fi",
+      "country_code": "FI",
+      "flag": "fl_fi",
+      "language": "Finnish"
+    },
+    {
+      "id": 26,
+      "language_code": "fr",
+      "country_code": "FR",
+      "flag": "fl_fr",
+      "language": "French"
+    },
+    {
+      "id": 27,
+      "language_code": "fy",
+      "country_code": "NL",
+      "flag": "fl_frisian",
+      "language": "Frisian"
+    },
+    {
+      "id": 28,
+      "language_code": "gl",
+      "country_code": "ES",
+      "flag": "fl_galician",
+      "language": "Galician"
+    },
+    {
+      "id": 29,
+      "language_code": "ka",
+      "country_code": "GE",
+      "flag": "fl_ge",
+      "language": "Georgian"
+    },
+    {
+      "id": 30,
+      "language_code": "de",
+      "country_code": "DE",
+      "flag": "fl_de",
+      "language": "German"
+    },
+    {
+      "id": 31,
+      "language_code": "el",
+      "country_code": "GR",
+      "flag": "fl_gr",
+      "language": "Greek"
+    },
+    {
+      "id": 32,
+      "language_code": "gu",
+      "country_code": "IN",
+      "flag": "fl_in",
+      "language": "Gujarati"
+    },
+    {
+      "id": 33,
+      "language_code": "ht",
+      "country_code": "HT",
+      "flag": "fl_ht",
+      "language": "Haitian Creole"
+    },
+    {
+      "id": 34,
+      "language_code": "ha",
+      "country_code": "NG",
+      "flag": "fl_ng",
+      "language": "Hausa"
+    },
+    {
+      "id": 35,
+      "language_code": "haw",
+      "country_code": "US",
+      "flag": "fl_hawaiian",
+      "language": "Hawaiian"
+    },
+    {
+      "id": 36,
+      "language_code": "iw",
+      "country_code": "IL",
+      "flag": "fl_il",
+      "language": "Hebrew"
+    },
+    {
+      "id": 37,
+      "language_code": "hi",
+      "country_code": "IN",
+      "flag": "fl_in",
+      "language": "Hindi"
+    },
+    {
+      "id": 38,
+      "language_code": "hmn",
+      "country_code": "CN",
+      "flag": "fl_cn",
+      "language": "Hmong"
+    },
+    {
+      "id": 39,
+      "language_code": "hu",
+      "country_code": "HU",
+      "flag": "fl_hu",
+      "language": "Hungarian"
+    },
+    {
+      "id": 40,
+      "language_code": "is",
+      "country_code": "IS",
+      "flag": "fl_is",
+      "language": "Icelandic"
+    },
+    {
+      "id": 41,
+      "language_code": "ig",
+      "country_code": "NG",
+      "flag": "fl_ng",
+      "language": "Igbo"
+    },
+    {
+      "id": 42,
+      "language_code": "in",
+      "country_code": "ID",
+      "flag": "fl_id",
+      "language": "Indonesian"
+    },
+    {
+      "id": 43,
+      "language_code": "ga",
+      "country_code": "IE",
+      "flag": "fl_ie",
+      "language": "Irish"
+    },
+    {
+      "id": 44,
+      "language_code": "it",
+      "country_code": "IT",
+      "flag": "fl_it",
+      "language": "Italian"
+    },
+    {
+      "id": 45,
+      "language_code": "ja",
+      "country_code": "JP",
+      "flag": "fl_jp",
+      "language": "Japanese"
+    },
+    {
+      "id": 46,
+      "language_code": "jw",
+      "country_code": "ID",
+      "flag": "fl_id",
+      "language": "Javanese"
+    },
+    {
+      "id": 47,
+      "language_code": "kn",
+      "country_code": "IN",
+      "flag": "fl_in",
+      "language": "Kannada"
+    },
+    {
+      "id": 48,
+      "language_code": "kk",
+      "country_code": "KZ",
+      "flag": "fl_kz",
+      "language": "Kazakh"
+    },
+    {
+      "id": 49,
+      "language_code": "km",
+      "country_code": "KH",
+      "flag": "fl_kh",
+      "language": "Khmer"
+    },
+    {
+      "id": 50,
+      "language_code": "ko",
+      "country_code": "KP",
+      "flag": "fl_kp",
+      "language": "Korean (NK)"
+    },
+    {
+      "id": 51,
+      "language_code": "ko",
+      "country_code": "KR",
+      "flag": "fl_kr",
+      "language": "Korean (SK)"
+    },
+    {
+      "id": 52,
+      "language_code": "ku",
+      "country_code": "IQ",
+      "flag": "fl_kurdish",
+      "language": "Kurdish"
+    },
+    {
+      "id": 53,
+      "language_code": "ky",
+      "country_code": "KG",
+      "flag": "fl_kg",
+      "language": "Kyrgyz"
+    },
+    {
+      "id": 54,
+      "language_code": "lo",
+      "country_code": "LA",
+      "flag": "fl_la",
+      "language": "Lao"
+    },
+    {
+      "id": 55,
+      "language_code": "la",
+      "country_code": "",
+      "flag": "fl_latin",
+      "language": "Latin"
+    },
+    {
+      "id": 56,
+      "language_code": "lv",
+      "country_code": "LV",
+      "flag": "fl_lv",
+      "language": "Latvian"
+    },
+    {
+      "id": 57,
+      "language_code": "lt",
+      "country_code": "LT",
+      "flag": "fl_lt",
+      "language": "Lithuanian"
+    },
+    {
+      "id": 58,
+      "language_code": "lb",
+      "country_code": "LU",
+      "flag": "fl_lu",
+      "language": "Luxembourgish"
+    },
+    {
+      "id": 59,
+      "language_code": "mk",
+      "country_code": "MK",
+      "flag": "fl_mk",
+      "language": "Macedonian"
+    },
+    {
+      "id": 60,
+      "language_code": "mg",
+      "country_code": "MG",
+      "flag": "fl_mg",
+      "language": "Malagasy"
+    },
+    {
+      "id": 61,
+      "language_code": "ms",
+      "country_code": "MY",
+      "flag": "fl_my",
+      "language": "Malay"
+    },
+    {
+      "id": 62,
+      "language_code": "ml",
+      "country_code": "IN",
+      "flag": "fl_in",
+      "language": "Malayalam"
+    },
+    {
+      "id": 63,
+      "language_code": "mt",
+      "country_code": "MT",
+      "flag": "fl_mt",
+      "language": "Maltese"
+    },
+    {
+      "id": 64,
+      "language_code": "mi",
+      "country_code": "NZ",
+      "flag": "fl_nz",
+      "language": "Maori"
+    },
+    {
+      "id": 65,
+      "language_code": "mr",
+      "country_code": "IN",
+      "flag": "fl_in",
+      "language": "Marathi"
+    },
+    {
+      "id": 66,
+      "language_code": "mn",
+      "country_code": "MN",
+      "flag": "fl_mn",
+      "language": "Mongolian"
+    },
+    {
+      "id": 67,
+      "language_code": "my",
+      "country_code": "MM",
+      "flag": "fl_mm",
+      "language": "Myanmar (Burmese)"
+    },
+    {
+      "id": 68,
+      "language_code": "ne",
+      "country_code": "NP",
+      "flag": "fl_np",
+      "language": "Nepali"
+    },
+    {
+      "id": 69,
+      "language_code": "nn",
+      "country_code": "NO",
+      "flag": "fl_no",
+      "language": "Norwegian"
+    },
+    {
+      "id": 70,
+      "language_code": "ny",
+      "country_code": "MW",
+      "flag": "fl_mw",
+      "language": "Nyanja (Chichewa)"
+    },
+    {
+      "id": 71,
+      "language_code": "ps",
+      "country_code": "AF",
+      "flag": "fl_af",
+      "language": "Pashto"
+    },
+    {
+      "id": 72,
+      "language_code": "fa",
+      "country_code": "IR",
+      "flag": "fl_ir",
+      "language": "Persian"
+    },
+    {
+      "id": 73,
+      "language_code": "pl",
+      "country_code": "PL",
+      "flag": "fl_pl",
+      "language": "Polish"
+    },
+    {
+      "id": 74,
+      "language_code": "pt",
+      "country_code": "PT",
+      "flag": "fl_pt",
+      "language": "Portuguese"
+    },
+    {
+      "id": 75,
+      "language_code": "pt",
+      "country_code": "BR",
+      "flag": "fl_br",
+      "language": "Portuguese (Brazil)"
+    },
+    {
+      "id": 76,
+      "language_code": "pa",
+      "country_code": "PK",
+      "flag": "fl_in",
+      "language": "Punjabi"
+    },
+    {
+      "id": 77,
+      "language_code": "ro",
+      "country_code": "RO",
+      "flag": "fl_ro",
+      "language": "Romanian"
+    },
+    {
+      "id": 78,
+      "language_code": "ru",
+      "country_code": "RU",
+      "flag": "fl_ru",
+      "language": "Russian"
+    },
+    {
+      "id": 79,
+      "language_code": "sm",
+      "country_code": "WS",
+      "flag": "fl_ws",
+      "language": "Samoan"
+    },
+    {
+      "id": 80,
+      "language_code": "gd",
+      "country_code": "GB-SCT",
+      "flag": "fl_gb_sct",
+      "language": "Scots Gaelic"
+    },
+    {
+      "id": 81,
+      "language_code": "sr",
+      "country_code": "RS",
+      "flag": "fl_rs",
+      "language": "Serbian"
+    },
+    {
+      "id": 82,
+      "language_code": "st",
+      "country_code": "LS",
+      "flag": "fl_ls",
+      "language": "Sesotho Southern Sotho"
+    },
+    {
+      "id": 83,
+      "language_code": "sn",
+      "country_code": "ZW",
+      "flag": "fl_zw",
+      "language": "Shona"
+    },
+    {
+      "id": 84,
+      "language_code": "sd",
+      "country_code": "PK",
+      "flag": "fl_pk",
+      "language": "Sindhi"
+    },
+    {
+      "id": 85,
+      "language_code": "si",
+      "country_code": "LK",
+      "flag": "fl_lk",
+      "language": "Sinhala"
+    },
+    {
+      "id": 86,
+      "language_code": "sk",
+      "country_code": "SK",
+      "flag": "fl_sk",
+      "language": "Slovak"
+    },
+    {
+      "id": 87,
+      "language_code": "sl",
+      "country_code": "SI",
+      "flag": "fl_si",
+      "language": "Slovenian"
+    },
+    {
+      "id": 88,
+      "language_code": "so",
+      "country_code": "SO",
+      "flag": "fl_so",
+      "language": "Somali"
+    },
+    {
+      "id": 89,
+      "language_code": "es",
+      "country_code": "ES",
+      "flag": "fl_es",
+      "language": "Spanish"
+    },
+    {
+      "id": 90,
+      "language_code": "su",
+      "country_code": "ID",
+      "flag": "fl_sundanese",
+      "language": "Sundanese"
+    },
+    {
+      "id": 91,
+      "language_code": "sw",
+      "country_code": "TZ",
+      "flag": "fl_tz",
+      "language": "Swahili"
+    },
+    {
+      "id": 92,
+      "language_code": "sv",
+      "country_code": "SE",
+      "flag": "fl_se",
+      "language": "Swedish"
+    },
+    {
+      "id": 93,
+      "language_code": "tl",
+      "country_code": "PH",
+      "flag": "fl_ph",
+      "language": "Tagalog (Filipino)"
+    },
+    {
+      "id": 94,
+      "language_code": "tg",
+      "country_code": "TJ",
+      "flag": "fl_tj",
+      "language": "Tajik"
+    },
+    {
+      "id": 95,
+      "language_code": "ta",
+      "country_code": "IN",
+      "flag": "fl_in",
+      "language": "Tamil"
+    },
+    {
+      "id": 96,
+      "language_code": "te",
+      "country_code": "IN",
+      "flag": "fl_in",
+      "language": "Telugu"
+    },
+    {
+      "id": 97,
+      "language_code": "th",
+      "country_code": "TH",
+      "flag": "fl_th",
+      "language": "Thai"
+    },
+    {
+      "id": 98,
+      "language_code": "tr",
+      "country_code": "TR",
+      "flag": "fl_tr",
+      "language": "Turkish"
+    },
+    {
+      "id": 99,
+      "language_code": "uk",
+      "country_code": "UA",
+      "flag": "fl_ua",
+      "language": "Ukrainian"
+    },
+    {
+      "id": 100,
+      "language_code": "ur",
+      "country_code": "PK",
+      "flag": "fl_pk",
+      "language": "Urdu"
+    },
+    {
+      "id": 101,
+      "language_code": "uz",
+      "country_code": "UZ",
+      "flag": "fl_uz",
+      "language": "Uzbek"
+    },
+    {
+      "id": 102,
+      "language_code": "vi",
+      "country_code": "VN",
+      "flag": "fl_vn",
+      "language": "Vietnamese"
+    },
+    {
+      "id": 103,
+      "language_code": "cy",
+      "country_code": "GB",
+      "flag": "fl_gb_wls",
+      "language": "Welsh"
+    },
+    {
+      "id": 104,
+      "language_code": "xh",
+      "country_code": "ZA",
+      "flag": "fl_za",
+      "language": "Xhosa"
+    },
+    {
+      "id": 105,
+      "language_code": "yi",
+      "country_code": "IL",
+      "flag": "fl_il",
+      "language": "Yiddish"
+    },
+    {
+      "id": 106,
+      "language_code": "yo",
+      "country_code": "NG",
+      "flag": "fl_ng",
+      "language": "Yoruba"
+    },
+    {
+      "id": 107,
+      "language_code": "zu",
+      "country_code": "ZA",
+      "flag": "fl_za",
+      "language": "Zulu"
+    }
+  ]
+}

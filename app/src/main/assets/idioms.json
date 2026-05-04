@@ -1,0 +1,713 @@
+{
+  "basic": [
+   {
+      "idiom": "A piece of cake",
+      "meaning": "Something that is very easy to do.",
+      "example": "The test was a piece of cake for me."
+    },
+    {
+      "idiom": "Break the ice",
+      "meaning": "To initiate conversation in a social setting.",
+      "example": "She told a joke to break the ice."
+    },
+    {
+      "idiom": "Spill the beans",
+      "meaning": "To reveal a secret.",
+      "example": "He spilled the beans about the surprise party."
+    },
+    {
+      "idiom": "Hit the sack",
+      "meaning": "To go to bed.",
+      "example": "I'm tired, so I’ll hit the sack."
+    },
+    {
+      "idiom": "Under the weather",
+      "meaning": "Feeling ill.",
+      "example": "She’s feeling under the weather today."
+    },
+    {
+      "idiom": "Let the cat out of the bag",
+      "meaning": "To reveal a secret unintentionally.",
+      "example": "She let the cat out of the bag about the surprise."
+    },
+    {
+      "idiom": "Pull someone's leg",
+      "meaning": "To joke or tease someone.",
+      "example": "Are you pulling my leg?"
+    },
+    {
+      "idiom": "Hit the nail on the head",
+      "meaning": "To describe exactly what is causing a situation or problem.",
+      "example": "You’ve hit the nail on the head with that comment."
+    },
+    {
+      "idiom": "Bite off more than you can chew",
+      "meaning": "To take on more responsibility than you can manage.",
+      "example": "He bit off more than he could chew by accepting two jobs."
+    },
+    {
+      "idiom": "Burn the candle at both ends",
+      "meaning": "To work excessively without rest.",
+      "example": "She's been burning the candle at both ends to finish her project."
+    },
+    {
+      "idiom": "Cost an arm and a leg",
+      "meaning": "Something very expensive.",
+      "example": "The new car cost an arm and a leg."
+    },
+    {
+      "idiom": "Once in a blue moon",
+      "meaning": "Something that happens very rarely.",
+      "example": "I only go to the movies once in a blue moon."
+    },
+    {
+      "idiom": "Raining cats and dogs",
+      "meaning": "Raining very heavily.",
+      "example": "It's raining cats and dogs outside!"
+    },
+    {
+      "idiom": "Go bananas",
+      "meaning": "To go crazy or wild.",
+      "example": "The kids went bananas when they saw the presents."
+    },
+    {
+      "idiom": "Hit the road",
+      "meaning": "To leave or start a journey.",
+      "example": "We need to hit the road early tomorrow."
+    },
+    {
+      "idiom": "Add fuel to the fire",
+      "meaning": "To make a bad situation worse.",
+      "example": "Yelling at her only added fuel to the fire."
+    },
+    {
+      "idiom": "Let someone off the hook",
+      "meaning": "To allow someone to avoid responsibility or blame.",
+      "example": "He was let off the hook for the broken window."
+    },
+    {
+      "idiom": "On the ball",
+      "meaning": "To be quick to understand or react to something.",
+      "example": "She’s really on the ball in her new job."
+    },
+    {
+      "idiom": "A blessing in disguise",
+      "meaning": "Something that seems bad at first but turns out to be good.",
+      "example": "Losing that job was a blessing in disguise."
+    },
+    {
+      "idiom": "Burn the midnight oil",
+      "meaning": "To work late into the night.",
+      "example": "He’s been burning the midnight oil studying for exams."
+    },
+    {
+      "idiom": "Caught between a rock and a hard place",
+      "meaning": "To be faced with two difficult choices.",
+      "example": "I’m caught between a rock and a hard place with this decision."
+    },
+    {
+      "idiom": "The ball is in your court",
+      "meaning": "It’s up to you to take the next action or decision.",
+      "example": "I’ve done my part; now the ball is in your court."
+    },
+    {
+      "idiom": "Every cloud has a silver lining",
+      "meaning": "There’s something positive in every bad situation.",
+      "example": "Even though you lost, remember that every cloud has a silver lining."
+    },
+    {
+      "idiom": "It takes two to tango",
+      "meaning": "Both parties are responsible for a situation.",
+      "example": "Don’t blame just me for the argument; it takes two to tango."
+    },
+    {
+      "idiom": "Kill two birds with one stone",
+      "meaning": "To accomplish two things at once.",
+      "example": "We can kill two birds with one stone by picking up the groceries on the way."
+    },
+    {
+      "idiom": "Let sleeping dogs lie",
+      "meaning": "To avoid interfering in a situation that is settled.",
+      "example": "I won’t bring it up again; it’s better to let sleeping dogs lie."
+    },
+    {
+      "idiom": "Steal someone's thunder",
+      "meaning": "To take credit for someone else’s achievements.",
+      "example": "She stole my thunder by announcing the news first."
+    },
+    {
+      "idiom": "Throw in the towel",
+      "meaning": "To give up or admit defeat.",
+      "example": "After months of trying, he finally threw in the towel."
+    },
+    {
+      "idiom": "Barking up the wrong tree",
+      "meaning": "To make a mistake in trying to achieve something.",
+      "example": "If you think I’m the one who broke it, you’re barking up the wrong tree."
+    },
+    {
+      "idiom": "The best of both worlds",
+      "meaning": "A situation where you can enjoy two different benefits.",
+      "example": "Working from home lets me have the best of both worlds."
+    },
+    {
+      "idiom": "Put all your eggs in one basket",
+      "meaning": "To rely on a single plan or resource.",
+      "example": "Don’t put all your eggs in one basket—diversify your investments."
+    },
+    {
+      "idiom": "A drop in the ocean",
+      "meaning": "A very small amount compared to what is needed.",
+      "example": "This donation is just a drop in the ocean for what’s required."
+    },
+    {
+      "idiom": "Miss the boat",
+      "meaning": "To miss an opportunity.",
+      "example": "I didn’t apply on time, so I missed the boat on that job."
+    },
+    {
+      "idiom": "Cut to the chase",
+      "meaning": "To get to the point without wasting time.",
+      "example": "Let’s cut to the chase and start the meeting."
+    },
+    {
+      "idiom": "In the same boat",
+      "meaning": "To be in the same difficult situation as others.",
+      "example": "We’re all in the same boat with these budget cuts."
+    },
+    {
+      "idiom": "Fit as a fiddle",
+      "meaning": "In very good health.",
+      "example": "He’s 80 years old but still fit as a fiddle."
+    },
+    {
+      "idiom": "Jump on the bandwagon",
+      "meaning": "To join others in doing something that is currently popular.",
+      "example": "Everyone’s jumping on the bandwagon of this new fitness craze."
+    },
+    {
+      "idiom": "The last straw",
+      "meaning": "The final problem that makes a situation unbearable.",
+      "example": "Losing my job was the last straw."
+    },
+    {
+      "idiom": "Break a leg",
+      "meaning": "Good luck (usually said to performers).",
+      "example": "Break a leg at your audition tomorrow!"
+    },
+    {
+      "idiom": "Burn bridges",
+      "meaning": "To destroy relationships or connections.",
+      "example": "Be careful not to burn bridges when you leave the company."
+    },
+    {
+      "idiom": "Speak of the devil",
+      "meaning": "When someone appears just after being mentioned.",
+      "example": "Speak of the devil! We were just talking about you."
+    },
+    {
+      "idiom": "You can't judge a book by its cover",
+      "meaning": "You shouldn’t judge someone or something by its appearance.",
+      "example": "He looks mean, but you can’t judge a book by its cover."
+    },
+    {
+      "idiom": "Actions speak louder than words",
+      "meaning": "What you do is more important than what you say.",
+      "example": "He promises a lot, but actions speak louder than words."
+    },
+    {
+      "idiom": "On thin ice",
+      "meaning": "In a risky or dangerous situation.",
+      "example": "He’s on thin ice with his boss after that mistake."
+    },
+    {
+      "idiom": "Under your nose",
+      "meaning": "Something that is right in front of you but unnoticed.",
+      "example": "I couldn’t find my keys—they were right under my nose."
+    }
+  ],
+  "intermediate": [
+    {
+      "idiom": "Back to the drawing board",
+      "meaning": "To start over after a failure.",
+      "example": "The plan didn’t work, so it’s back to the drawing board."
+    },
+    {
+      "idiom": "Bite the bullet",
+      "meaning": "To face a difficult situation bravely.",
+      "example": "I don’t like the dentist, but I’ll have to bite the bullet and go."
+    },
+    {
+      "idiom": "Caught red-handed",
+      "meaning": "To be caught in the act of doing something wrong.",
+      "example": "He was caught red-handed trying to steal the candy."
+    },
+    {
+      "idiom": "Cry over spilled milk",
+      "meaning": "To be upset about something that can’t be undone.",
+      "example": "There’s no use crying over spilled milk; let’s just move on."
+    },
+    {
+      "idiom": "Cut corners",
+      "meaning": "To do something in a cheap or easy way, often compromising quality.",
+      "example": "They cut corners during construction, and now the roof leaks."
+    },
+    {
+      "idiom": "Drive someone up the wall",
+      "meaning": "To make someone very annoyed.",
+      "example": "Her constant humming is driving me up the wall."
+    },
+    {
+      "idiom": "Face the music",
+      "meaning": "To accept the consequences of one’s actions.",
+      "example": "He broke the rules and now he has to face the music."
+    },
+    {
+      "idiom": "Finger on the pulse",
+      "meaning": "To be aware of current events or trends.",
+      "example": "As a journalist, she always has her finger on the pulse."
+    },
+    {
+      "idiom": "Fly off the handle",
+      "meaning": "To lose one's temper suddenly.",
+      "example": "He flew off the handle when he saw the broken vase."
+    },
+    {
+      "idiom": "Get out of hand",
+      "meaning": "To become uncontrollable.",
+      "example": "The party got out of hand when too many people showed up."
+    },
+    {
+      "idiom": "Go down in flames",
+      "meaning": "To fail spectacularly.",
+      "example": "His attempt at baking went down in flames."
+    },
+    {
+      "idiom": "Go the extra mile",
+      "meaning": "To put in more effort than expected.",
+      "example": "She always goes the extra mile to help her customers."
+    },
+    {
+      "idiom": "In hot water",
+      "meaning": "In trouble or difficulty.",
+      "example": "He’s in hot water with his boss for missing the deadline."
+    },
+    {
+      "idiom": "Jump the gun",
+      "meaning": "To do something prematurely.",
+      "example": "They jumped the gun by announcing the project before it was approved."
+    },
+    {
+      "idiom": "Keep your chin up",
+      "meaning": "To remain positive in a difficult situation.",
+      "example": "Keep your chin up, things will get better."
+    },
+    {
+      "idiom": "Kick the bucket",
+      "meaning": "To die.",
+      "example": "The old man finally kicked the bucket after a long illness."
+    },
+    {
+      "idiom": "Let off steam",
+      "meaning": "To release pent-up emotions.",
+      "example": "She went for a run to let off some steam after the argument."
+    },
+    {
+      "idiom": "Make a long story short",
+      "meaning": "To summarize something briefly.",
+      "example": "To make a long story short, the project was a success."
+    },
+    {
+      "idiom": "No pain, no gain",
+      "meaning": "You have to work hard for something you want.",
+      "example": "She knew that no pain, no gain was true when she trained for the marathon."
+    },
+    {
+      "idiom": "Off the top of your head",
+      "meaning": "To say something without thinking it through.",
+      "example": "I can’t give you the exact number off the top of my head."
+    },
+    {
+      "idiom": "On cloud nine",
+      "meaning": "Extremely happy or delighted.",
+      "example": "She’s been on cloud nine since she got the promotion."
+    },
+    {
+      "idiom": "On thin ice",
+      "meaning": "In a risky or precarious situation.",
+      "example": "After being late twice, she’s on thin ice with her boss."
+    },
+    {
+      "idiom": "Out of the blue",
+      "meaning": "Unexpectedly.",
+      "example": "He called me out of the blue after years of no contact."
+    },
+    {
+      "idiom": "Over the moon",
+      "meaning": "Extremely happy.",
+      "example": "He was over the moon when he passed his exams."
+    },
+    {
+      "idiom": "Play it by ear",
+      "meaning": "To act without planning or to improvise.",
+      "example": "We don’t have a plan for the weekend; we’ll just play it by ear."
+    },
+    {
+      "idiom": "Pull out all the stops",
+      "meaning": "To do everything possible to succeed.",
+      "example": "They pulled out all the stops to make the event a success."
+    },
+    {
+      "idiom": "Put your foot down",
+      "meaning": "To assert authority and insist on something.",
+      "example": "She had to put her foot down when her kids wanted to stay up late."
+    },
+    {
+      "idiom": "Read between the lines",
+      "meaning": "To understand the hidden meaning in something.",
+      "example": "You need to read between the lines to see what he’s really saying."
+    },
+    {
+      "idiom": "Ring a bell",
+      "meaning": "To sound familiar.",
+      "example": "That name rings a bell, but I can’t place it."
+    },
+    {
+      "idiom": "See eye to eye",
+      "meaning": "To agree with someone.",
+      "example": "They don’t always see eye to eye on political issues."
+    },
+    {
+      "idiom": "Shoot the breeze",
+      "meaning": "To have a casual conversation.",
+      "example": "We spent the afternoon shooting the breeze on the porch."
+    },
+    {
+      "idiom": "Sit on the fence",
+      "meaning": "To avoid making a decision or choice.",
+      "example": "He’s sitting on the fence about which job offer to accept."
+    },
+    {
+      "idiom": "Skeleton in the closet",
+      "meaning": "A hidden and embarrassing secret.",
+      "example": "Every family has a skeleton in the closet."
+    },
+    {
+      "idiom": "Speak of the devil",
+      "meaning": "When someone appears just after being mentioned.",
+      "example": "Speak of the devil! We were just talking about you."
+    },
+    {
+      "idiom": "Spill the beans",
+      "meaning": "To reveal a secret.",
+      "example": "He spilled the beans about the surprise party."
+    },
+    {
+      "idiom": "The ball is in your court",
+      "meaning": "It’s up to you to take the next action.",
+      "example": "I’ve done all I can; now the ball is in your court."
+    },
+    {
+      "idiom": "The elephant in the room",
+      "meaning": "An obvious problem that is being ignored.",
+      "example": "We need to address the elephant in the room—our budget problems."
+    },
+    {
+      "idiom": "Throw caution to the wind",
+      "meaning": "To take a risk without considering the consequences.",
+      "example": "He threw caution to the wind and quit his job to travel."
+    },
+    {
+      "idiom": "Turn a blind eye",
+      "meaning": "To ignore something wrong or inappropriate.",
+      "example": "The teacher turned a blind eye to the student's misbehavior."
+    },
+    {
+      "idiom": "Up in the air",
+      "meaning": "Undecided or unresolved.",
+      "example": "Our vacation plans are still up in the air."
+    },
+    {
+      "idiom": "Water under the bridge",
+      "meaning": "Past events that are no longer significant.",
+      "example": "Let’s forget the argument; it’s all water under the bridge now."
+    },
+    {
+      "idiom": "When pigs fly",
+      "meaning": "Something that will never happen.",
+      "example": "I’ll get that promotion when pigs fly."
+    },
+    {
+      "idiom": "Wrap your head around",
+      "meaning": "To understand something complicated.",
+      "example": "I’m trying to wrap my head around this new software."
+    },
+    {
+      "idiom": "Your guess is as good as mine",
+      "meaning": "I don’t know either.",
+      "example": "Why did they cancel the meeting? Your guess is as good as mine."
+    },
+    {
+      "idiom": "Blow off steam",
+      "meaning": "To release stress or anger.",
+      "example": "He went for a walk to blow off steam after the argument."
+    },
+    {
+      "idiom": "Burn the midnight oil",
+      "meaning": "To work late into the night.",
+      "example": "I had to burn the midnight oil to finish the report on time."
+    },
+    {
+      "idiom": "Cast the first stone",
+      "meaning": "To be the first to criticize or accuse someone.",
+      "example": "No one should cast the first stone without knowing the full story."
+    },
+    {
+      "idiom": "Cold shoulder",
+      "meaning": "To ignore someone deliberately.",
+      "example": "She gave him the cold shoulder after their argument."
+    },
+    {
+      "idiom": "Curiosity killed the cat",
+      "meaning": "Being too inquisitive can lead to trouble.",
+      "example": "Don’t ask too many questions—curiosity killed the cat."
+    },
+    {
+      "idiom": "Fit as a fiddle",
+      "meaning": "In good health.",
+      "example": "At 80 years old, he’s still as fit as a fiddle."
+    },
+    {
+      "idiom": "Go out on a limb",
+      "meaning": "To take a risk.",
+      "example": "He went out on a limb and invested in a new startup."
+    },
+    {
+      "idiom": "Hit the ground running",
+      "meaning": "To start something successfully and with great energy.",
+      "example": "The new employee hit the ground running on her first day."
+    },
+    {
+      "idiom": "In the nick of time",
+      "meaning": "Just in time, with little margin.",
+      "example": "We arrived at the airport in the nick of time to catch our flight."
+    },
+    {
+      "idiom": "It takes two to tango",
+      "meaning": "Both parties involved in a situation are responsible.",
+      "example": "Don’t blame her alone—it takes two to tango."
+    }
+  ],
+  "advanced": [
+    {
+      "idiom": "A blessing in disguise",
+      "meaning": "An apparent misfortune that results in something good.",
+      "example": "Losing that job was a blessing in disguise; I found a better one."
+    },
+    {
+      "idiom": "Barking up the wrong tree",
+      "meaning": "To make a false assumption or pursue a mistaken course.",
+      "example": "If you think I’m the one who leaked the information, you’re barking up the wrong tree."
+    },
+    {
+      "idiom": "Burning the candle at both ends",
+      "meaning": "To exhaust oneself by working excessively hard.",
+      "example": "She’s been burning the candle at both ends, and it’s affecting her health."
+    },
+    {
+      "idiom": "Caught between a rock and a hard place",
+      "meaning": "Facing a dilemma with two unfavorable options.",
+      "example": "I’m caught between a rock and a hard place with this job offer."
+    },
+    {
+      "idiom": "Cross that bridge when you come to it",
+      "meaning": "To deal with a problem when it arises rather than worrying about it beforehand.",
+      "example": "We’ll cross that bridge when we come to it; let’s focus on the present."
+    },
+    {
+      "idiom": "Curiosity killed the cat",
+      "meaning": "Inquiring too much into something can lead to trouble.",
+      "example": "Be careful; remember that curiosity killed the cat."
+    },
+    {
+      "idiom": "Don't count your chickens before they hatch",
+      "meaning": "Don’t assume success until it actually happens.",
+      "example": "You might think you’ll win the lottery, but don’t count your chickens before they hatch."
+    },
+    {
+      "idiom": "Every cloud has a silver lining",
+      "meaning": "There is something good in every bad situation.",
+      "example": "Even though he lost his job, every cloud has a silver lining; he found a better one."
+    },
+    {
+      "idiom": "Fly in the ointment",
+      "meaning": "A small problem that spoils a larger plan.",
+      "example": "The only fly in the ointment is that we’re running out of budget."
+    },
+    {
+      "idiom": "Go down in history",
+      "meaning": "To be remembered for something significant.",
+      "example": "The scientist’s discovery will go down in history."
+    },
+    {
+      "idiom": "Hit the nail on the head",
+      "meaning": "To describe exactly what is causing a situation or problem.",
+      "example": "You hit the nail on the head with your analysis of the situation."
+    },
+    {
+      "idiom": "In a nutshell",
+      "meaning": "In summary or in brief.",
+      "example": "In a nutshell, the project was a success."
+    },
+    {
+      "idiom": "Jump on the bandwagon",
+      "meaning": "To join a popular activity or trend.",
+      "example": "Many businesses jumped on the bandwagon of social media marketing."
+    },
+    {
+      "idiom": "Keep your friends close and your enemies closer",
+      "meaning": "To be aware of your enemies' actions while maintaining close relationships with friends.",
+      "example": "In politics, you should keep your friends close and your enemies closer."
+    },
+    {
+      "idiom": "Last straw",
+      "meaning": "The final problem in a series of problems that causes one to react.",
+      "example": "When he lied about the project, that was the last straw."
+    },
+    {
+      "idiom": "Let the cat out of the bag",
+      "meaning": "To reveal a secret, often unintentionally.",
+      "example": "He let the cat out of the bag about the surprise party."
+    },
+    {
+      "idiom": "Not playing with a full deck",
+      "meaning": "Someone who is not very intelligent or is acting irrationally.",
+      "example": "I think he’s not playing with a full deck when he made that decision."
+    },
+    {
+      "idiom": "On the same wavelength",
+      "meaning": "In agreement or understanding.",
+      "example": "It’s great working with someone who’s on the same wavelength as me."
+    },
+    {
+      "idiom": "Out of the frying pan and into the fire",
+      "meaning": "To go from a bad situation to a worse one.",
+      "example": "He thought changing jobs would help, but he went out of the frying pan and into the fire."
+    },
+    {
+      "idiom": "Piece of cake",
+      "meaning": "Something that is very easy to do.",
+      "example": "The test was a piece of cake; I finished it in half the time."
+    },
+    {
+      "idiom": "Put all your eggs in one basket",
+      "meaning": "To risk everything on a single venture.",
+      "example": "Investing all your savings in one stock is putting all your eggs in one basket."
+    },
+    {
+      "idiom": "Read the riot act",
+      "meaning": "To reprimand or warn someone sternly.",
+      "example": "The teacher read the riot act to the students after the chaos."
+    },
+    {
+      "idiom": "Right off the bat",
+      "meaning": "Immediately; without delay.",
+      "example": "I knew right off the bat that she was the right candidate for the job."
+    },
+    {
+      "idiom": "Raining cats and dogs",
+      "meaning": "Raining heavily.",
+      "example": "We had to stay indoors because it was raining cats and dogs."
+    },
+    {
+      "idiom": "See the light at the end of the tunnel",
+      "meaning": "To see signs of improvement after a difficult period.",
+      "example": "After months of hard work, I finally see the light at the end of the tunnel."
+    },
+    {
+      "idiom": "Sit tight",
+      "meaning": "To wait patiently.",
+      "example": "Just sit tight while I figure this out."
+    },
+    {
+      "idiom": "Smoke and mirrors",
+      "meaning": "A deceptive or misleading explanation.",
+      "example": "The company's financial reports were just smoke and mirrors."
+    },
+    {
+      "idiom": "Spill the beans",
+      "meaning": "To reveal secret information.",
+      "example": "She spilled the beans about the surprise vacation."
+    },
+    {
+      "idiom": "Steal someone's thunder",
+      "meaning": "To take credit for someone else's idea.",
+      "example": "I didn’t mean to steal her thunder; I just wanted to share my thoughts."
+    },
+    {
+      "idiom": "The early bird catches the worm",
+      "meaning": "People who wake up early have an advantage.",
+      "example": "I like to get to the office early; the early bird catches the worm."
+    },
+    {
+      "idiom": "The grass is always greener on the other side",
+      "meaning": "People often think others have it better.",
+      "example": "She’s always wishing for a different job, but the grass isn’t always greener on the other side."
+    },
+    {
+      "idiom": "Throw in the towel",
+      "meaning": "To give up or admit defeat.",
+      "example": "After trying for hours, he decided to throw in the towel."
+    },
+    {
+      "idiom": "To burn the midnight oil",
+      "meaning": "To work late into the night.",
+      "example": "She burned the midnight oil to finish the project on time."
+    },
+    {
+      "idiom": "To have a chip on your shoulder",
+      "meaning": "To be angry about something that happened in the past.",
+      "example": "He’s had a chip on his shoulder ever since he was passed over for promotion."
+    },
+    {
+      "idiom": "To let sleeping dogs lie",
+      "meaning": "To avoid interfering in a situation that could cause trouble.",
+      "example": "I think we should let sleeping dogs lie and not bring up the argument again."
+    },
+    {
+      "idiom": "To throw caution to the wind",
+      "meaning": "To act recklessly.",
+      "example": "She decided to throw caution to the wind and invest all her savings in the startup."
+    },
+    {
+      "idiom": "To weigh one's words",
+      "meaning": "To think carefully about what one says.",
+      "example": "He weighed his words before responding to the criticism."
+    },
+    {
+      "idiom": "Turn a blind eye",
+      "meaning": "To ignore something that you know is wrong.",
+      "example": "The manager turned a blind eye to the ongoing issue."
+    },
+    {
+      "idiom": "Under the weather",
+      "meaning": "Feeling ill or unwell.",
+      "example": "I’m feeling a bit under the weather today."
+    },
+    {
+      "idiom": "Walking on eggshells",
+      "meaning": "To be very cautious about how you behave or speak.",
+      "example": "I felt like I was walking on eggshells around my boss after the meeting."
+    },
+    {
+      "idiom": "You can't have your cake and eat it too",
+      "meaning": "You can’t have it both ways.",
+      "example": "You can’t expect to be successful and have a lot of free time; you can't have your cake and eat it too."
+    },
+    {
+      "idiom": "Your guess is as good as mine",
+      "meaning": "I have no idea.",
+      "example": "Why the project was canceled? Your guess is as good as mine."
+    }
+  ]
+}

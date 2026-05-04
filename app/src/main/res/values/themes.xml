@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.AdvanceEnglishDictionary" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary / Secondary -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+
+        <!-- Background / Surface -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Toolbar style -->
+        <item name="toolbarStyle">@style/Widget.AdvanceEnglishDictionary.Toolbar</item>
+    </style>
+
+    <!-- Actual theme used by app -->
+    <style name="Theme.AdvanceEnglishDictionary" parent="Base.Theme.AdvanceEnglishDictionary" />
+
+    <!-- Toolbar Widget -->
+    <style name="Widget.AdvanceEnglishDictionary.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/toolbar_background</item>
+        <item name="titleTextColor">@color/on_primary</item>
+        <item name="navigationIconTint">@color/toolbar_icon</item>
+    </style>
+
+</resources>

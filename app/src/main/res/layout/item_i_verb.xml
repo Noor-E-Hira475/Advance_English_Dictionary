@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4dp"
+    android:layout_marginHorizontal="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Base Form Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/base_form"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginEnd="2dp"
+                android:textColor="@color/label_color"/>
+
+            <TextView
+                android:id="@+id/tvBaseFormValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/base_form_content"
+                android:textSize="16sp"
+                android:textColor="@color/content_color"/>
+        </LinearLayout>
+
+        <!-- Past Simple Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/past_simple"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginEnd="2dp"
+                android:textColor="@color/label_color"/>
+
+            <TextView
+                android:id="@+id/tvPastSimpleValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/past_simple_content"
+                android:textSize="16sp"
+                android:textColor="@color/content_color"/>
+        </LinearLayout>
+
+        <!-- Past Participle Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/past_part"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginEnd="2dp"
+                android:textColor="@color/label_color"/>
+
+            <TextView
+                android:id="@+id/tvPastPartValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/past_part_content"
+                android:textSize="16sp"
+                android:textColor="@color/content_color"/>
+        </LinearLayout>
+
+        <!-- 3rd Person Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/person_3rd"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginEnd="2dp"
+                android:textColor="@color/label_color"/>
+
+            <TextView
+                android:id="@+id/tvPerson3rdValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/person_3rd_content"
+                android:textSize="16sp"
+                android:textColor="@color/content_color"/>
+        </LinearLayout>
+
+        <!-- Gerund Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gerund"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginEnd="2dp"
+                android:textColor="@color/label_color"/>
+
+            <TextView
+                android:id="@+id/tvGerundValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gerund_content"
+                android:textSize="16sp"
+                android:textColor="@color/content_color"/>
+        </LinearLayout>
+
+        <!-- Definition Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/definition"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginEnd="2dp"
+                android:textColor="@color/label_color"/>
+
+            <TextView
+                android:id="@+id/tvDefinitionValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/definition_content"
+                android:textSize="16sp"
+                android:textColor="@color/content_color"/>
+        </LinearLayout>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/card_divider_color" />
+
+        <!-- Icons Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnSound"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/speaker_selector"
+                android:layout_marginEnd="24dp"/>
+
+            <ImageView
+                android:id="@+id/btnCopy"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/copy_selector"
+                android:layout_marginEnd="24dp"/>
+
+            <ImageView
+                android:id="@+id/btnFavorite"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/favorite_selector"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

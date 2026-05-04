@@ -1,0 +1,12 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- When selected -->
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/ic_copy_selected"/>
+
+    <!-- Default (unselected) -->
+    <item
+        android:drawable="@drawable/ic_copy_unselected"/>
+
+</selector>

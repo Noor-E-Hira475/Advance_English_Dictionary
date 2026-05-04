@@ -1,0 +1,815 @@
+{
+  "words": [
+    {
+      "pair": ["Accept", "Except"],
+      "definitions": [
+        "Accept means to willingly receive something, approve, or agree to something.",
+        "Except means to exclude something or someone from a group or set."
+      ],
+      "example": "She will accept the job offer, except for the condition on relocation."
+    },
+    {
+      "pair": ["Affect", "Effect"],
+      "definitions": [
+        "Affect is a verb meaning to influence or make a difference to something.",
+        "Effect is a noun that denotes the result or outcome of a cause or action."
+      ],
+      "example": "The medicine may affect his mood, and its effect will be closely monitored."
+    },
+    {
+      "pair": ["Allusion", "Illusion"],
+      "definitions": [
+        "Allusion is an indirect reference to something well-known, often literary or cultural.",
+        "Illusion is a deceptive appearance or impression, creating a false perception."
+      ],
+      "example": "The author's allusion to Greek mythology added depth, while the magician created an illusion on stage."
+    },
+    {
+      "pair": ["Allude", "Elude"],
+      "definitions": [
+        "Allude means to hint at or refer to something indirectly.",
+        "Elude means to escape from or avoid, typically in a skillful way."
+      ],
+      "example": "He alluded to his new job, while the fugitive managed to elude capture."
+    },
+    {
+      "pair": ["All Ready", "Already"],
+      "definitions": [
+        "All Ready means fully prepared for something.",
+        "Already means that something has occurred before now or earlier than expected."
+      ],
+      "example": "The team is all ready for the project, but it has already started."
+    },
+    {
+      "pair": ["Altogether", "All together"],
+      "definitions": [
+        "Altogether means entirely or completely.",
+        "All together means everyone or everything in the same place or at the same time."
+      ],
+      "example": "The plan was rejected altogether, but the group was all together at the event."
+    },
+    {
+      "pair": ["Among", "Between"],
+      "definitions": [
+        "Among is used to refer to being surrounded by or included with multiple people or things.",
+        "Between refers to the space or position separating two distinct entities."
+      ],
+      "example": "The competition is intense among the players, and the choice is between two finalists."
+    },
+    {
+      "pair": ["Assure", "Ensure", "Insure"],
+      "definitions": [
+        "Assure means to make someone feel certain or confident about something.",
+        "Ensure means to make sure that something will happen or be the case.",
+        "Insure means to protect financially against risk, typically through an insurance policy."
+      ],
+      "example": "I assure you of our commitment, ensure everything is ready, and insure the valuables."
+    },
+    {
+      "pair": ["Advice", "Advise"],
+      "definitions": [
+        "Advice is a noun meaning recommendations or guidance given to someone.",
+        "Advise is a verb meaning to offer recommendations or guidance."
+      ],
+      "example": "Her advice was sound, and she advised me to act quickly."
+    },
+    {
+      "pair": ["Adapt", "Adopt"],
+      "definitions": [
+        "Adapt means to adjust or modify to suit a new situation.",
+        "Adopt means to take something up as one’s own, like a practice or idea."
+      ],
+      "example": "He had to adapt to the new environment, and they adopted the proposed strategy."
+    },
+    {
+      "pair": ["Adverse", "Averse"],
+      "definitions": [
+        "Adverse means harmful or unfavorable, often describing conditions.",
+        "Averse means having a strong dislike or unwillingness to do something."
+      ],
+      "example": "They faced adverse weather conditions, but she wasn’t averse to the challenge."
+    },
+    {
+      "pair": ["Aisle", "Isle"],
+      "definitions": [
+        "Aisle refers to a passage between rows, like in a theater or store.",
+        "Isle is a small island, often remote or scenic."
+      ],
+      "example": "She walked down the grocery aisle, and they planned a trip to a secluded isle."
+    },
+    {
+      "pair": ["Altar", "Alter"],
+      "definitions": [
+        "Altar is a table or platform in a place of worship.",
+        "Alter means to change or modify something."
+      ],
+      "example": "They exchanged vows at the altar, then decided to alter the wedding arrangements."
+    },
+    {
+      "pair": ["Ambiguous", "Ambivalent"],
+      "definitions": [
+        "Ambiguous means unclear or open to multiple interpretations.",
+        "Ambivalent means having mixed or conflicting feelings about something."
+      ],
+      "example": "The instructions were ambiguous, and she felt ambivalent about the new job."
+    },
+    {
+      "pair": ["Appraise", "Apprise"],
+      "definitions": [
+        "Appraise means to evaluate or estimate the value of something.",
+        "Apprise means to inform or notify someone about something."
+      ],
+      "example": "The jeweler will appraise the ring, and I will apprise you of its value."
+    },
+    {
+      "pair": ["Ascend", "Assent"],
+      "definitions": [
+        "Ascend means to go up or climb.",
+        "Assent means to agree or approve."
+      ],
+      "example": "They ascended the mountain, and the council assented to the proposal."
+    },
+    {
+      "pair": ["Bare", "Bear"],
+      "definitions": [
+        "Bare means exposed or uncovered.",
+        "Bear means to carry, endure, or support."
+      ],
+      "example": "She walked barefoot on the bare floor, and he had to bear the responsibility alone."
+    },
+    {
+      "pair": ["Bazaar", "Bizarre"],
+      "definitions": [
+        "Bazaar is a marketplace or fair, often with various items for sale.",
+        "Bizarre means strange or unusual, often in a way that is surprising."
+      ],
+      "example": "They visited a colorful bazaar for souvenirs, and saw a bizarre street performance."
+    },
+    {
+      "pair": ["Beside", "Besides"],
+      "definitions": [
+        "Beside means next to or alongside.",
+        "Besides means in addition to or apart from."
+      ],
+      "example": "She sat beside her friend, and besides the food, the music was enjoyable."
+    },
+    {
+      "pair": ["Born", "Borne"],
+      "definitions": [
+        "Born relates to birth or coming into existence.",
+        "Borne means carried or supported by something."
+      ],
+      "example": "He was born in January, and the expenses were borne by the company."
+    },
+    {
+      "pair": ["Breath", "Breathe"],
+      "definitions": [
+        "Breath is a noun that refers to the air taken in and expelled from the lungs.",
+        "Breathe is a verb that means to take air into the lungs and expel it."
+      ],
+      "example": "Before starting the meditation, take a deep breath and remember to breathe slowly."
+    },
+    {
+      "pair": ["Buy", "By", "Bye"],
+      "definitions": [
+        "Buy is a verb meaning to purchase something.",
+        "By is a preposition indicating the agent performing an action or the means of achieving something.",
+        "Bye is a colloquial term used to say goodbye or an abbreviation in sports when a team or player does not have to compete in the first round."
+      ],
+      "example": "I need to buy groceries by this evening, and I'll wave bye to my friends as I leave."
+    },
+    {
+      "pair": ["Canvas", "Canvass"],
+      "definitions": [
+        "Canvas is a heavy fabric used for painting, making tents, or other purposes.",
+        "Canvass is a verb meaning to solicit votes or opinions from people."
+      ],
+      "example": "The artist worked on a large canvas while volunteers canvassed the neighborhood for support."
+    },
+    {
+      "pair": ["Capital", "Capitol"],
+      "definitions": [
+        "Capital refers to a city that serves as the seat of government, as well as financial assets.",
+        "Capitol refers specifically to a building where a legislative assembly meets."
+      ],
+      "example": "Washington D.C. is the capital of the United States, and the Capitol building is where Congress convenes."
+    },
+    {
+      "pair": ["Censor", "Censure"],
+      "definitions": [
+        "Censor means to suppress or edit content that is considered inappropriate or offensive.",
+        "Censure is a formal expression of disapproval or criticism."
+      ],
+      "example": "The government decided to censor the documentary, while the senator faced censure for his remarks."
+    },
+    {
+      "pair": ["Cite", "Sight", "Site"],
+      "definitions": [
+        "Cite means to refer to a source as evidence or justification.",
+        "Sight refers to the ability to see or a view.",
+        "Site is a location or area, often related to construction or a place of interest."
+      ],
+      "example": "She will cite her sources in the paper, enjoy the beautiful sight of the sunset, and visit the historical site."
+    },
+    {
+      "pair": ["Climactic", "Climatic"],
+      "definitions": [
+        "Climactic refers to the most intense or exciting point of something, especially in literature or drama.",
+        "Climatic relates to the climate or weather conditions."
+      ],
+      "example": "The story reached a climactic moment in the final chapter, while the climatic changes have affected the region."
+    },
+    {
+      "pair": ["Coarse", "Course"],
+      "definitions": [
+        "Coarse describes a rough texture or something that is not fine or smooth.",
+        "Course can refer to a direction, a path, or a set of classes or studies."
+      ],
+      "example": "The coarse sand felt uncomfortable underfoot, and she was excited to start her new math course."
+    },
+    {
+      "pair": ["Complement", "Compliment"],
+      "definitions": [
+        "Complement refers to something that completes or enhances another thing.",
+        "Compliment is a polite expression of praise or admiration."
+      ],
+      "example": "The wine is a perfect complement to the meal, and he gave her a heartfelt compliment on her dress."
+    },
+    {
+      "pair": ["Conscience", "Conscious"],
+      "definitions": [
+        "Conscience is the inner sense of what is right or wrong in one's conduct or motives.",
+        "Conscious means being aware of and able to think or perceive."
+      ],
+      "example": "Her conscience told her to speak the truth, and he was fully conscious during the entire procedure."
+    },
+    {
+      "pair": ["Continual", "Continuous"],
+      "definitions": [
+        "Continual describes something that occurs repeatedly over time, with interruptions.",
+        "Continuous refers to something that occurs without any interruption."
+      ],
+      "example": "The continual interruptions made it hard to concentrate, while the continuous noise from the construction was distracting."
+    },
+    {
+      "pair": ["Council", "Counsel"],
+      "definitions": [
+        "Council is a group of people convened for advice or decision-making.",
+        "Counsel refers to advice given, often in a legal context."
+      ],
+      "example": "The council met to discuss community issues, and she sought counsel from a lawyer regarding her contract."
+    },
+    {
+      "pair": ["Desert", "Dessert"],
+      "definitions": [
+        "Desert is a dry, barren area with little vegetation and usually a hot climate.",
+        "Dessert is the sweet course typically served at the end of a meal."
+      ],
+      "example": "The Sahara Desert is known for its extreme conditions, while chocolate mousse is my favorite dessert."
+    },
+    {
+      "pair": ["Device", "Devise"],
+      "definitions": [
+        "Device is a noun referring to a tool or gadget used for a specific purpose.",
+        "Devise is a verb meaning to invent or plan something with careful thought."
+      ],
+      "example": "The new device has advanced features, and the engineers will devise a strategy for its launch."
+    },
+    {
+      "pair": ["Discreet", "Discrete"],
+      "definitions": [
+        "Discreet means careful and circumspect in one's speech or actions, especially to avoid causing offense.",
+        "Discrete refers to distinct or separate units."
+      ],
+      "example": "She was discreet in her comments about the situation, and the data was divided into discrete categories."
+    },
+    {
+      "pair": ["Dual", "Duel"],
+      "definitions": [
+        "Dual refers to something that consists of two parts or aspects.",
+        "Duel is a formal combat between two individuals, often involving weapons."
+      ],
+      "example": "The dual nature of the project allows for flexibility, while the two knights prepared for their duel."
+    },
+    {
+      "pair": ["Elicit", "Illicit"],
+      "definitions": [
+        "Elicit means to draw out a response or reaction from someone.",
+        "Illicit refers to something that is forbidden by law or rules."
+      ],
+      "example": "The teacher tried to elicit thoughtful answers from the students, but the illicit behavior in the back row was distracting."
+    },
+    {
+      "pair": ["Eminent", "Imminent"],
+      "definitions": [
+        "Eminent means famous and respected within a particular sphere.",
+        "Imminent means something that is about to happen soon."
+      ],
+      "example": "The eminent scientist spoke at the conference, and a storm warning indicated that severe weather was imminent."
+    },
+    {
+      "pair": ["Envelop", "Envelope"],
+      "definitions": [
+        "Envelop means to cover or surround completely.",
+        "Envelope is a flat, usually rectangular, paper container for a letter or document."
+      ],
+      "example": "The fog began to envelop the city, and she sealed the letter in an envelope before mailing it."
+    },
+    {
+      "pair": ["Erode", "Corrode"],
+      "definitions": [
+        "Erode means to gradually wear away soil or rock due to natural forces.",
+        "Corrode means to destroy or damage metal, usually through a chemical process."
+      ],
+      "example": "Water can erode the bank of a river over time, while rust can corrode iron if left exposed to moisture."
+    },
+    {
+      "pair": ["Everyday", "Every day"],
+      "definitions": [
+        "Everyday is an adjective that describes something common or ordinary.",
+        "Every day means each day, referring to something that happens daily."
+      ],
+      "example": "These shoes are perfect for everyday use, and I go for a run every day."
+    },
+    {
+      "pair": ["Farther", "Further"],
+      "definitions": [
+        "Farther refers to a greater physical distance.",
+        "Further means a greater degree, often used in a metaphorical sense."
+      ],
+      "example": "He ran farther than he did yesterday, and we can discuss this further at our next meeting."
+    },
+    {
+      "pair": ["Flair", "Flare"],
+      "definitions": [
+        "Flair means a natural ability or style.",
+        "Flare refers to a sudden burst of light or a signal of distress."
+      ],
+      "example": "She has a flair for music, and the flare lit up the night sky."
+    },
+    {
+      "pair": ["Formally", "Formerly"],
+      "definitions": [
+        "Formally means in a strict, official, or proper manner.",
+        "Formerly means in the past or previously."
+      ],
+      "example": "The event will be held formally, and he was formerly a member of the board."
+    },
+    {
+      "pair": ["Gambit", "Gamut"],
+      "definitions": [
+        "Gambit is a strategic move, often used in games or discussions.",
+        "Gamut refers to the complete range or scope of something."
+      ],
+      "example": "His opening gambit was well-planned, and the show covered the gamut of human emotions."
+    },
+    {
+      "pair": ["Historic", "Historical"],
+      "definitions": [
+        "Historic means famous or important in history.",
+        "Historical relates to history or the study of past events."
+      ],
+      "example": "The signing of the Declaration of Independence was a historic moment, while she loves reading historical novels."
+    },
+    {
+      "pair": ["Imply", "Infer"],
+      "definitions": [
+        "Imply means to suggest something indirectly.",
+        "Infer means to deduce or conclude information from evidence rather than from explicit statements."
+      ],
+      "example": "Her tone seemed to imply dissatisfaction, but I could only infer her feelings from her words."
+    },
+    {
+      "pair": ["Ingenious", "Ingenuous"],
+      "definitions": [
+        "Ingenious refers to someone or something that is clever, inventive, or resourceful.",
+        "Ingenuous describes someone who is innocent, naive, or unsuspecting."
+      ],
+      "example": "His ingenious solution to the problem impressed everyone, while her ingenuous nature made her trusting of others."
+    },
+    {
+      "pair": ["Later", "Latter"],
+      "definitions": [
+        "Later refers to a time after the present moment.",
+        "Latter refers to the second of two things mentioned."
+      ],
+      "example": "We can meet later, but I prefer the latter option between the two."
+    },
+    {
+      "pair": ["Lay", "Lie"],
+      "definitions": [
+        "Lay means to place something down (requires an object).",
+        "Lie means to recline or be in a horizontal position (no object required)."
+      ],
+      "example": "Please lay the book on the table, and I will lie down for a nap."
+    },
+    {
+      "pair": ["Lead", "Led"],
+      "definitions": [
+        "Lead is a verb meaning to guide or direct (also a noun for a type of metal).",
+        "Led is the past tense of lead."
+      ],
+      "example": "She will lead the team, as she has led them successfully in the past."
+    },
+    {
+      "pair": ["Lean", "Lien"],
+      "definitions": [
+        "Lean means to incline or bend from a vertical position.",
+        "Lien is a legal right or interest that a lender has in the borrower's property."
+      ],
+      "example": "You can lean against the wall while I explain the lien on your house."
+    },
+    {
+      "pair": ["Lightning", "Lightening"],
+      "definitions": [
+        "Lightning refers to a natural electrical discharge during a storm.",
+        "Lightening means to make something lighter or to reduce the weight or severity of something."
+      ],
+      "example": "The lightning struck the tree, causing me to consider lightening my load before the hike."
+    },
+    {
+      "pair": ["Loose", "Lose"],
+      "definitions": [
+        "Loose means not tight or free from constraint.",
+        "Lose means to misplace something or to fail to win."
+      ],
+      "example": "My pants are loose after I lose weight this month."
+    },
+    {
+      "pair": ["Manner", "Manor"],
+      "definitions": [
+        "Manner refers to a way of doing something or a person's behavior.",
+        "Manor is a large country house with lands."
+      ],
+      "example": "His manner was polite, and the manor was surrounded by beautiful gardens."
+    },
+    {
+      "pair": ["Medal", "Metal", "Mettle"],
+      "definitions": [
+        "Medal is an award for achievement, often in sports.",
+        "Metal is a solid material that is typically hard, shiny, and conducts heat and electricity.",
+        "Mettle refers to a person's ability to cope well with difficulties or to be spirited."
+      ],
+      "example": "She won a gold medal made of metal, proving her mettle in the competition."
+    },
+    {
+      "pair": ["Moral", "Morale"],
+      "definitions": [
+        "Moral refers to principles of right and wrong behavior.",
+        "Morale refers to the confidence, enthusiasm, or discipline of a person or group."
+      ],
+      "example": "The story has a strong moral lesson, which helped improve the team's morale after their loss."
+    },
+    {
+      "pair": ["Morning", "Mourning"],
+      "definitions": [
+        "Morning refers to the period of time from dawn to noon.",
+        "Mourning is the expression of deep sorrow for someone who has died."
+      ],
+      "example": "The morning sun was bright, but she was still in mourning for her loss."
+    },
+    {
+      "pair": ["Nauseated", "Nauseous"],
+      "definitions": [
+        "Nauseated means feeling sick or queasy.",
+        "Nauseous means causing nausea, often used to describe something that makes you feel sick."
+      ],
+      "example": "After the roller coaster ride, I felt nauseated and could barely look at the nauseous food at the fair."
+    },
+    {
+      "pair": ["Ordinance", "Ordinate"],
+      "definitions": [
+        "Ordinance refers to a law or regulation enacted by a city or town government.",
+        "Ordinate refers to the y-coordinate in a two-dimensional coordinate system."
+      ],
+      "example": "The city passed an ordinance regarding noise levels, which also affected the ordinate measurements for the area."
+    },
+    {
+      "pair": ["Overdo", "Overdue"],
+      "definitions": [
+        "Overdo means to do something to an excessive degree.",
+        "Overdue refers to something that has not been done by the expected time."
+      ],
+      "example": "I think I overdo it with my workouts, and my library books are now overdue."
+    },
+    {
+      "pair": ["Passed", "Past"],
+      "definitions": [
+        "Passed is the past tense of pass, meaning to move past or to complete something successfully.",
+        "Past refers to the time before the present."
+      ],
+      "example": "He passed the test with flying colors, but he often reflects on his past mistakes."
+    },
+    {
+      "pair": ["Peak", "Peek", "Pique"],
+      "definitions": [
+        "Peak refers to the highest point of something.",
+        "Peek means to look quickly or secretly.",
+        "Pique means to stimulate interest or curiosity."
+      ],
+      "example": "The peak of the mountain is stunning, but I had to peek at my notes to pique my interest in the subject."
+    },
+    {
+      "pair": ["Personal", "Personnel"],
+      "definitions": [
+        "Personal refers to something related to an individual or private matters.",
+        "Personnel refers to the people who work for an organization."
+      ],
+      "example": "He shared his personal experiences with the personnel department during the meeting."
+    },
+    {
+      "pair": ["Perspective", "Prospective"],
+      "definitions": [
+        "Perspective refers to a particular attitude toward or way of regarding something.",
+        "Prospective means likely to happen or expected in the future."
+      ],
+      "example": "From her perspective, the project was successful, and they were looking forward to prospective partnerships."
+    },
+    {
+      "pair": ["Precede", "Proceed"],
+      "definitions": [
+        "Precede means to come before something in time or order.",
+        "Proceed means to continue or move forward."
+      ],
+      "example": "The introduction will precede the main event, and we will proceed with the agenda after that."
+    },
+    {
+      "pair": ["Principal", "Principle"],
+      "definitions": [
+        "Principal refers to the head of a school or organization, or the amount of money borrowed or invested.",
+        "Principle refers to a fundamental truth or proposition that serves as the foundation for a system of belief."
+      ],
+      "example": "The principal of the school enforced strict rules based on the principles of fairness."
+    },
+    {
+      "pair": ["Raise", "Raze"],
+      "definitions": [
+        "Raise means to lift or elevate something.",
+        "Raze means to completely destroy or demolish."
+      ],
+      "example": "They plan to raise funds for the project, but the old building will be razed to make way for new construction."
+    },
+    {
+      "pair": ["Rain", "Reign", "Rein"],
+      "definitions": [
+        "Rain refers to water droplets that fall from the sky.",
+        "Reign means to hold royal office or to rule.",
+        "Rein refers to a strap used to guide or control a horse."
+      ],
+      "example": "The rain started pouring as the queen began to reign over her kingdom, while the rider held the rein tightly."
+    },
+    {
+      "pair": ["Reluctant", "Reticent"],
+      "definitions": [
+        "Reluctant means unwilling or hesitant.",
+        "Reticent means not revealing one's thoughts or feelings readily."
+      ],
+      "example": "He was reluctant to speak in public, and his reticent nature made it hard for others to know his opinions."
+    },
+    {
+      "pair": ["Respectfully", "Respectively"],
+      "definitions": [
+        "Respectfully means in a way that shows respect.",
+        "Respectively means in the order given."
+      ],
+      "example": "She spoke respectfully to the committee, and the members were introduced respectively."
+    },
+    {
+      "pair": ["Right", "Rite", "Write"],
+      "definitions": [
+        "Right means morally good or justified, or a direction opposite to left.",
+        "Rite refers to a religious or ceremonial act.",
+        "Write means to mark letters or words on a surface."
+      ],
+      "example": "It is right to honor traditions, and the rite of passage included a ceremony where everyone was encouraged to write their thoughts."
+    },
+    {
+      "pair": ["Role", "Roll"],
+      "definitions": [
+        "Role refers to a function or part played by a person or thing.",
+        "Roll means to move by turning over and over."
+      ],
+      "example": "In the play, she had a significant role, while the child loved to roll the ball across the floor."
+    },
+    {
+      "pair": ["Root", "Route"],
+      "definitions": [
+        "Root refers to the part of a plant that attaches it to the ground or to the source of a word.",
+        "Route refers to a way or course taken to get from one place to another."
+      ],
+      "example": "The root of the tree was exposed, and they chose the scenic route for their road trip."
+    },
+    {
+      "pair": ["Sail", "Sale"],
+      "definitions": [
+        "Sail is a piece of fabric used to catch the wind on a boat.",
+        "Sale refers to the exchange of goods or services for money."
+      ],
+      "example": "They set sail on their journey after the sale of the boat was finalized."
+    },
+    {
+      "pair": ["Seam", "Seem"],
+      "definitions": [
+        "Seam refers to the line where two pieces of fabric are sewn together.",
+        "Seem means to appear to be or to give the impression of something."
+      ],
+      "example": "The seam on her dress was coming apart, which made it seem less expensive."
+    },
+    {
+      "pair": ["Set", "Sit"],
+      "definitions": [
+        "Set means to place something in a specified position.",
+        "Sit means to rest with the body supported by the buttocks."
+      ],
+      "example": "Please set the table before you sit down for dinner."
+    },
+    {
+      "pair": ["Sight", "Site", "Cite"],
+      "definitions": [
+        "Sight refers to the ability to see or something that is seen.",
+        "Site refers to a location or place.",
+        "Cite means to quote as evidence or to mention."
+      ],
+      "example": "The sight of the sunset was beautiful at that site, and I had to cite it in my travel journal."
+    },
+    {
+      "pair": ["Stationary", "Stationery"],
+      "definitions": [
+        "Stationary means not moving or not intended to be moved.",
+        "Stationery refers to paper, envelopes, and other office supplies."
+      ],
+      "example": "The car was stationary at the red light while I wrote a note on my stationery."
+    },
+    {
+      "pair": ["Storey", "Story"],
+      "definitions": [
+        "Storey refers to a level or floor of a building.",
+        "Story refers to a narrative or account of events."
+      ],
+      "example": "The building has five storeys, and each storey has its own unique story."
+    },
+    {
+      "pair": ["Suppress", "Repress"],
+      "definitions": [
+        "Suppress means to put an end to or prevent something from being expressed.",
+        "Repress means to hold back or restrain something, often emotions or desires."
+      ],
+      "example": "He tried to suppress his laughter, but his feelings were repressed for too long."
+    },
+    {
+      "pair": ["Than", "Then"],
+      "definitions": [
+        "Than is used in comparisons.",
+        "Then refers to a point in time or a consequence."
+      ],
+      "example": "She is taller than her brother, and then they both played basketball together."
+    },
+    {
+      "pair": ["Their", "There", "They’re"],
+      "definitions": [
+        "Their is a possessive pronoun indicating ownership.",
+        "There refers to a place or location.",
+        "They’re is a contraction of 'they are.'"
+      ],
+      "example": "Their car is parked over there, and they’re planning to drive it to the beach."
+    },
+    {
+      "pair": ["Threw", "Through"],
+      "definitions": [
+        "Threw is the past tense of throw, meaning to toss something.",
+        "Through means to go from one side to the other or to complete."
+      ],
+      "example": "He threw the ball through the open window."
+    },
+    {
+      "pair": ["To", "Too", "Two"],
+      "definitions": [
+        "To is a preposition indicating direction or purpose.",
+        "Too means excessively or also.",
+        "Two is the number after one."
+      ],
+      "example": "I went to the store, too, and bought two apples."
+    },
+    {
+      "pair": ["Vain", "Vane", "Vein"],
+      "definitions": [
+        "Vain means having an excessively high opinion of oneself.",
+        "Vane refers to a device for showing the direction of the wind.",
+        "Vein refers to a blood vessel or a mineral deposit."
+      ],
+      "example": "He was so vain that he admired his reflection in the vane on top of the building while walking by a vein of gold."
+    },
+    {
+      "pair": ["Vary", "Very"],
+      "definitions": [
+        "Vary means to differ or change.",
+        "Very is an adverb used to emphasize something."
+      ],
+      "example": "The colors may vary, but they are all very beautiful."
+    },
+    {
+      "pair": ["Waive", "Wave"],
+      "definitions": [
+        "Waive means to give up a right or claim.",
+        "Wave refers to a gesture of the hand or a moving swell of water."
+      ],
+      "example": "I will waive my right to the prize and wave goodbye as I leave the stage."
+    },
+    {
+      "pair": ["Wander", "Wonder"],
+      "definitions": [
+        "Wander means to move about without a fixed course.",
+        "Wonder means to feel curiosity or amazement."
+      ],
+      "example": "As I wander through the forest, I can’t help but wonder what lies ahead."
+    },
+    {
+      "pair": ["Weak", "Week"],
+      "definitions": [
+        "Weak means lacking strength or power.",
+        "Week refers to a period of seven days."
+      ],
+      "example": "After a weak performance last week, the team trained harder for the next game."
+    },
+    {
+      "pair": ["Weather", "Whether"],
+      "definitions": [
+        "Weather refers to the state of the atmosphere at a particular place and time.",
+        "Whether indicates a choice between alternatives."
+      ],
+      "example": "The weather forecast is uncertain, so we must decide whether to go on the picnic."
+    },
+    {
+      "pair": ["Who’s", "Whose"],
+      "definitions": [
+        "Who’s is a contraction of 'who is' or 'who has.'",
+        "Whose is a possessive pronoun indicating ownership."
+      ],
+      "example": "Who’s coming to dinner tonight, and whose recipe are we using?"
+    },
+    {
+      "pair": ["Woman", "Women"],
+      "definitions": [
+        "Woman refers to an adult female human.",
+        "Women is the plural form of woman."
+      ],
+      "example": "The woman at the counter served the women attending the meeting."
+    },
+    {
+      "pair": ["Yoke", "Yolk"],
+      "definitions": [
+        "Yoke refers to a wooden crosspiece used to join two animals together.",
+        "Yolk is the yellow part of an egg."
+      ],
+      "example": "The farmer attached the yoke to the oxen, while the yolk of the egg spilled onto the plate."
+    },
+    {
+      "pair": ["Your", "You’re"],
+      "definitions": [
+        "Your is a possessive pronoun indicating ownership.",
+        "You’re is a contraction of 'you are.'"
+      ],
+      "example": "Your umbrella is here, and you’re going to need it in the rain."
+    },
+    {
+      "pair": ["Adapt", "Adept"],
+      "definitions": [
+        "Adapt means to adjust or modify something to fit new conditions.",
+        "Adept means skilled or proficient at something."
+      ],
+      "example": "She will adapt her approach for the new project because she is adept at managing change."
+    },
+    {
+      "pair": ["Affect", "Effect"],
+      "definitions": [
+        "Affect is a verb meaning to influence something.",
+        "Effect is a noun meaning the result of a change."
+      ],
+      "example": "The new policy will affect many people, but its effect will take time to assess."
+    },
+    {
+      "pair": ["Allusion", "Illusion"],
+      "definitions": [
+        "Allusion refers to an indirect reference to something.",
+        "Illusion refers to a false idea or belief."
+      ],
+      "example": "The author's allusion to Greek mythology created an illusion of depth in the story."
+    },
+    {
+      "pair": ["Ensure", "Insure"],
+      "definitions": [
+        "Ensure means to make certain or guarantee.",
+        "Insure means to protect against financial loss, typically with an insurance policy."
+      ],
+      "example": "Please ensure that the door is locked, and I will insure the contents of the house."
+    },
+    {
+      "pair": ["Stationary", "Stationery"],
+      "definitions": [
+        "Stationary means not moving or fixed in place.",
+        "Stationery refers to writing materials like paper and envelopes."
+      ],
+      "example": "The vehicle remained stationary at the red light while I organized my stationery."
+    }
+  ]
+}
