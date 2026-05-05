@@ -31,4 +31,5 @@
     <string name="sentence_content">Sentence Content</string>
     <string name="meaning">Meaning</string>
     <string name="meaning_content">Meaning content</string>
+    <string name="sentence_example">Example</string>
 </resources>

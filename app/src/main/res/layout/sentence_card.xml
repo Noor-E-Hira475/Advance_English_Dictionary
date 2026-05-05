@@ -32,6 +32,7 @@
         android:src="@drawable/ic_speaker_unselected"/>
 
     <TextView
+        android:id="@+id/tvSentenceContent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sentence_content"
@@ -58,6 +59,7 @@
                 android:src="@drawable/ic_speaker_unselected"/>
 
             <TextView
+                android:id="@+id/tvMeaningContent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/meaning_content"
@@ -67,7 +69,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
-                android:text="@string/example"
+                android:text="@string/sentence_example"
                 android:layout_margin="8dp"/>
 
             <LinearLayout
@@ -82,6 +84,7 @@
                     android:src="@drawable/ic_speaker_unselected"/>
 
                 <TextView
+                    android:id="@+id/tvExampleContent"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/example_content"
