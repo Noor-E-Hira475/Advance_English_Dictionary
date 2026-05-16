@@ -32,4 +32,30 @@
     <string name="meaning">Meaning</string>
     <string name="meaning_content">Meaning content</string>
     <string name="sentence_example">Example</string>
+
+    <!-- Conversation Categories -->
+    <string name="cat_eating">Eating</string>
+    <string name="cat_emotion">Emotion</string>
+    <string name="cat_fashion">Fashion</string>
+    <string name="cat_friendship">Friendship</string>
+    <string name="cat_health">Health</string>
+    <string name="cat_housing">Housing</string>
+    <string name="cat_life">Life</string>
+    <string name="cat_memory">Memory</string>
+    <string name="cat_shopping">Shopping</string>
+    <string name="cat_time">Time</string>
+    <string name="cat_travel">Travel</string>
+    <string name="cat_vacation">Vacation</string>
+    <string name="cat_weather">Weather</string>
+    <string name="cat_work">Work</string>
+
+    <!-- Conversation UI -->
+    <string name="title_topics">Topics</string>
+    <string name="title_dialogue">Dialogue</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_topic_title">Topic Title</string>
+    <string name="placeholder_speaker">Speaker</string>
+    <string name="placeholder_dialogue_text">Dialogue text goes here...</string>
+
 </resources>

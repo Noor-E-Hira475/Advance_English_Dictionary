@@ -39,7 +39,15 @@
     <!-- Neutral icon tint -->
     <color name="icon_tint_color">#757575</color>
 
-
-
+    <!-- Conversation Feature Colors -->
+    <color name="conversation_bg_topics">#F8F9FA</color>
+    <color name="conversation_bg_dialogue">#F0F2F5</color>
+    <color name="conversation_text_primary">#212529</color>
+    <color name="conversation_text_secondary">#6C757D</color>
+    <color name="conversation_icon_tint">#CED4DA</color>
+    <color name="conversation_bubble_left_name">#007BFF</color>
+    <color name="conversation_bubble_right_name">#28A745</color>
+    <color name="conversation_bubble_right_bg">#DCF8C6</color>
+    <color name="conversation_bubble_left_bg">#FFFFFF</color>
 
 </resources>

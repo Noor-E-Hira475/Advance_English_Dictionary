@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Literal Fashion Icon (Shirt) -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M48,16l-8,-8l-8,8l-8,-8l-8,8l-4,12l8,4v32h24v-32l8,-4L48,16z M32,18l4,4h-8L32,18z" />
+</vector>

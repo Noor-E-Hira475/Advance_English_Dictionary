@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Literal Work Icon (Briefcase) -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M44,16h-8v-4c0,-2.21 -1.79,-4 -4,-4h-16c-2.21,0 -4,1.79 -4,4v4H12c-2.21,0 -4,1.79 -4,4v28c0,2.21 1.79,4 4,4h40c2.21,0 4,-1.79 4,-4V20c0,-2.21 -1.79,-4 -4,-4z M24,12h16v4h-16v-4z M52,48H12V20h40v28z" />
+</vector>

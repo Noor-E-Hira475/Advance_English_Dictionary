@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Centered Airplane Icon -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M54,42l-22,-13.75V10c0,-3.04 -2.46,-5.5 -5.5,-5.5S21,6.96 21,10v18.25L4,42v5.5l22,-6.87v15.13l-5.5,4.12V64l8.25,-2.75L37,64v-4.12l-5.5,-4.12V40.63l22,6.87V42z" />
+</vector>
