@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Literal Friendship Icon (Two People) -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M24,24c4.42,0 8,-3.58 8,-8s-3.58,-8 -8,-8s-8,3.58 -8,8S19.58,24 24,24z M40,24c4.42,0 8,-3.58 8,-8s-3.58,-8 -8,-8s-8,3.58 -8,8S35.58,24 40,24z M10,48v8h44v-8c0,-7.33 -14.67,-11 -22,-11S10,40.67 10,48z" />
+</vector>

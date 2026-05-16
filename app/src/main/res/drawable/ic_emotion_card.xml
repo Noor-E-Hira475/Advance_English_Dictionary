@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Literal Emotion Icon (Smile Face) -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M32,4C16.54,4 4,16.54 4,32s12.54,28 28,28s28,-12.54 28,-28S47.46,4 32,4z M32,56c-13.23,0 -24,-10.77 -24,-24s10.77,-24 24,-24s24,10.77 24,24S45.23,56 32,56z M43.12,38.12c-2.43,3.77 -6.6,6.38 -11.12,6.38s-8.69,-2.61 -11.12,-6.38l3.41,-2.04c1.72,2.67 4.54,4.42 7.71,4.42s5.99,-1.75 7.71,-4.42L43.12,38.12z M22,28c1.66,0 3,-1.34 3,-3s-1.34,-3 -3,-3s-3,1.34 -3,3S20.34,28 22,28z M42,28c1.66,0 3,-1.34 3,-3s-1.34,-3 -3,-3s-3,1.34 -3,3S40.34,28 42,28z" />
+</vector>

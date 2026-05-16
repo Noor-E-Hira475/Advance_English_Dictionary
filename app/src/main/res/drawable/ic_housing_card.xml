@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Literal Housing Icon (Simple House) -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M32,4L4,28h8v32h40V28h8L32,4z M44,52h-8v-16h-8v16h-8V28.5L32,15l12,13.5V52z" />
+</vector>
