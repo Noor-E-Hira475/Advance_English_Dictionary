@@ -50,4 +50,13 @@
     <color name="conversation_bubble_right_bg">#DCF8C6</color>
     <color name="conversation_bubble_left_bg">#FFFFFF</color>
 
+    <!-- Quiz Colors -->
+    <color name="quiz_correct">#4CAF50</color>
+    <color name="quiz_incorrect">#F44336</color>
+    <color name="quiz_timer_progress">#FF9800</color>
+    <color name="quiz_timer_bg">#EEEEEE</color>
+    <color name="quiz_option_bg">#FFFFFF</color>
+    <color name="quiz_option_stroke">#E0E0E0</color>
+    <color name="quiz_text_question">#212121</color>
 </resources>
+

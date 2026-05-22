@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AdvanceEnglishDictionary">
         <activity
+            android:name=".activities.ConversationActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.ConversationTopicActivity"
             android:exported="false" />
         <activity
@@ -36,7 +39,7 @@
             android:name=".activities.CommonPhraseDetailActivity"
             android:excludeFromRecents="false" />
         <activity
-            android:name=".activities.ConversationActivity"
+            android:name=".activities.QuizActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,6 +47,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activities.QuizResultActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
