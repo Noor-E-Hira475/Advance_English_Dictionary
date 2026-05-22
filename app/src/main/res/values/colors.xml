@@ -50,6 +50,7 @@
     <color name="conversation_bubble_right_bg">#DCF8C6</color>
     <color name="conversation_bubble_left_bg">#FFFFFF</color>
 
+<<<<<<< HEAD
     <!-- Quiz Colors -->
     <color name="quiz_correct">#4CAF50</color>
     <color name="quiz_incorrect">#F44336</color>
@@ -58,5 +59,7 @@
     <color name="quiz_option_bg">#FFFFFF</color>
     <color name="quiz_option_stroke">#E0E0E0</color>
     <color name="quiz_text_question">#212121</color>
+=======
+>>>>>>> 48bac69c26475275354ad4c62f1fcb4e5ecf335e
 </resources>
 

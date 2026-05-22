@@ -58,6 +58,7 @@
     <string name="placeholder_speaker">Speaker</string>
     <string name="placeholder_dialogue_text">Dialogue text goes here...</string>
 
+<<<<<<< HEAD
     <!-- Quiz Strings -->
     <string name="quiz_score">Score: %1$d/10</string>
     <string name="quiz_time_left">Time Left: %1$ds</string>
@@ -75,4 +76,6 @@
     <string name="quiz_good_job_msg">You\'re doing great! A little more practice and you\'ll be perfect.</string>
     <string name="quiz_keep_trying_msg">Don\'t give up! Every mistake is a learning opportunity.</string>
     <string name="quiz_your_score">Your Score: %1$d/%2$d</string>
+=======
+>>>>>>> 48bac69c26475275354ad4c62f1fcb4e5ecf335e
 </resources>
