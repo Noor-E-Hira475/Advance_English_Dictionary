@@ -46,6 +46,15 @@
             android:exported="false" />
         <activity
             android:name=".activities.UsefulPhrasesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UsefulPhrasesDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LanguageSelectorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ConfusedWordsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -53,10 +62,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.UsefulPhrasesDetailActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activities.LanguageSelectorActivity"
+            android:name=".activities.ConfusedWordsDetailActivity"
             android:exported="false" />
 
     </application>
