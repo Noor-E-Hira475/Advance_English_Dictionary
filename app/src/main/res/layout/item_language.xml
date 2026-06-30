@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/surface"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivFlag"
+            android:layout_width="36dp"
+            android:layout_height="24dp"
+            android:scaleType="fitCenter"
+            tools:src="@drawable/ic_flag_arabic"
+            android:contentDescription="@string/lang_flag"/>
+
+        <TextView
+            android:id="@+id/tvLanguageName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold"
+            tools:text="Arabic"/>
+
+        <ImageView
+            android:id="@+id/ivSelected"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_quiz_correct"
+            app:tint="@color/primary"
+            android:contentDescription="@string/lang_selected"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

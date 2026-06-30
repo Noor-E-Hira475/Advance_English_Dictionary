@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="24dp"
+    android:viewportWidth="36"
+    android:viewportHeight="24">
+    <!-- Portugal: Green-Red vertical split with emblem -->
+    <path android:fillColor="#006600" android:pathData="M0,0h14v24H0z"/>
+    <path android:fillColor="#FF0000" android:pathData="M14,0h22v24H14z"/>
+    <path android:fillColor="#FFCC00" android:pathData="M14,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+</vector>

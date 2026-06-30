@@ -12,12 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AdvanceEnglishDictionary">
         <activity
-<<<<<<< HEAD
             android:name=".activities.ConversationActivity"
             android:exported="false" />
         <activity
-=======
->>>>>>> 48bac69c26475275354ad4c62f1fcb4e5ecf335e
             android:name=".activities.ConversationTopicActivity"
             android:exported="false" />
         <activity
@@ -42,20 +39,24 @@
             android:name=".activities.CommonPhraseDetailActivity"
             android:excludeFromRecents="false" />
         <activity
-<<<<<<< HEAD
             android:name=".activities.QuizActivity"
-=======
-            android:name=".activities.ConversationActivity"
->>>>>>> 48bac69c26475275354ad4c62f1fcb4e5ecf335e
+            android:exported="false" />
+        <activity
+            android:name=".activities.QuizResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UsefulPhrasesActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.QuizResultActivity"
+            android:name=".activities.UsefulPhrasesDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LanguageSelectorActivity"
             android:exported="false" />
 
     </application>

@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="24dp"
+    android:viewportWidth="36"
+    android:viewportHeight="24">
+    <!-- Saudi Arabia: Green background with simplified white shahada/sword area -->
+    <path android:fillColor="#006C35" android:pathData="M0,0h36v24H0z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M8,9h20v6H8z"/>
+</vector>

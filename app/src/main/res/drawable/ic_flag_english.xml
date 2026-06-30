@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="24dp"
+    android:viewportWidth="36"
+    android:viewportHeight="24">
+    <!-- UK flag simplified representation -->
+    <path android:fillColor="#012169" android:pathData="M0,0h36v24H0z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M0,0l36,24M36,0l-36,24" android:strokeWidth="3" android:strokeColor="#FFFFFF"/>
+    <path android:fillColor="#C8102E" android:pathData="M0,0l36,24M36,0l-36,24" android:strokeWidth="1.5" android:strokeColor="#C8102E"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M18,0v24M0,12h36" android:strokeWidth="5" android:strokeColor="#FFFFFF"/>
+    <path android:fillColor="#C8102E" android:pathData="M18,0v24M0,12h36" android:strokeWidth="3" android:strokeColor="#C8102E"/>
+</vector>

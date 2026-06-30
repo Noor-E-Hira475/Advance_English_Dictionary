@@ -58,7 +58,6 @@
     <string name="placeholder_speaker">Speaker</string>
     <string name="placeholder_dialogue_text">Dialogue text goes here...</string>
 
-<<<<<<< HEAD
     <!-- Quiz Strings -->
     <string name="quiz_score">Score: %1$d/10</string>
     <string name="quiz_time_left">Time Left: %1$ds</string>
@@ -76,6 +75,48 @@
     <string name="quiz_good_job_msg">You\'re doing great! A little more practice and you\'ll be perfect.</string>
     <string name="quiz_keep_trying_msg">Don\'t give up! Every mistake is a learning opportunity.</string>
     <string name="quiz_your_score">Your Score: %1$d/%2$d</string>
-=======
->>>>>>> 48bac69c26475275354ad4c62f1fcb4e5ecf335e
+
+    <!-- Useful Phrases Categories -->
+    <string name="phrase_greetings">Greetings</string>
+    <string name="phrase_general_conversation">General Conversation</string>
+    <string name="phrase_numbers">Numbers</string>
+    <string name="phrase_time_date">Time and Date</string>
+    <string name="phrase_directions">Directions &amp; Places</string>
+    <string name="phrase_transportation">Transportation</string>
+    <string name="phrase_accommodation">Accommodation</string>
+    <string name="phrase_eating_out">Eating Out</string>
+    <string name="phrase_shopping">Shopping</string>
+    <string name="phrase_colours">Colours</string>
+    <string name="phrase_cities">Cities and Provinces</string>
+    <string name="phrase_countries">Countries / Regions</string>
+    <string name="phrase_tourist">Tourist Attractions</string>
+    <string name="phrase_family">Family</string>
+    <string name="phrase_dating">Dating</string>
+    <string name="phrase_emergency">Emergency</string>
+    <string name="phrase_feeling_sick">Feeling Sick</string>
+    <string name="phrase_tongue_twisters">Tongue Twisters</string>
+
+    <!-- Useful Phrases UI -->
+    <string name="phrase_category_icon">Category icon</string>
+    <string name="phrase_arrow">Navigate</string>
+
+    <!-- Language Names -->
+    <string name="lang_english">English</string>
+    <string name="lang_arabic">Arabic</string>
+    <string name="lang_german">German</string>
+    <string name="lang_spanish">Spanish</string>
+    <string name="lang_french">French</string>
+    <string name="lang_hindi">Hindi</string>
+    <string name="lang_italian">Italian</string>
+    <string name="lang_japanese">Japanese</string>
+    <string name="lang_korean">Korean</string>
+    <string name="lang_portugese">Portuguese</string>
+    <string name="lang_russian">Russian</string>
+    <string name="lang_urdu">Urdu</string>
+
+    <!-- Language Selector UI -->
+    <string name="select_language">Select Language</string>
+    <string name="lang_flag">Flag</string>
+    <string name="lang_selected">Selected</string>
+
 </resources>
