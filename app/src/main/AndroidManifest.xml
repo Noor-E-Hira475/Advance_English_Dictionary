@@ -15,6 +15,9 @@
             android:name=".activities.ConversationActivity"
             android:exported="false" />
         <activity
+            android:name=".activities.ConfusedWordsActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.ConversationTopicActivity"
             android:exported="false" />
         <activity
@@ -54,7 +57,7 @@
             android:name=".activities.LanguageSelectorActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.ConfusedWordsActivity"
+            android:name=".activities.QuotesActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
