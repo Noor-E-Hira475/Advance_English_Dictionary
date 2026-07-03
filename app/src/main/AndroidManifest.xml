@@ -58,6 +58,9 @@
             android:exported="false" />
         <activity
             android:name=".activities.QuotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.IdiomsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
