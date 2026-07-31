@@ -50,11 +50,24 @@ class IdiomsCategoryAdapter(
         }
 
         holder.binding.root.setOnClickListener {
-            val previousSelected = selectedPosition
-            selectedPosition = holder.adapterPosition
-            notifyItemChanged(previousSelected)
+            val position = holder.bindingAdapterPosition
+            if (position != RecyclerView.NO_POSITION) {
+                val previousSelected = selectedPosition
+                selectedPosition = position
+                notifyItemChanged(previousSelected)
+                notifyItemChanged(selectedPosition)
+                onCategorySelected(categoryKey)
+            }
+        }
+    }
+
+    fun setSelectedCategory(category: String) {
+        val index = categories.indexOf(category)
+        if (index != -1 && index != selectedPosition) {
+            val previous = selectedPosition
+            selectedPosition = index
+            notifyItemChanged(previous)
             notifyItemChanged(selectedPosition)
-            onCategorySelected(categoryKey)
         }
     }
 

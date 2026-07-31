@@ -6,31 +6,32 @@ import org.json.JSONObject
 
 class QuotesDao(private val context: Context) {
 
-    fun getQuotesByCategory(category: String): List<Quote> {
-        val list = mutableListOf<Quote>()
-        try {
+    private fun getQuotesObject(): JSONObject? {
+        return try {
             val jsonString = context.assets.open("quotes.json")
                 .bufferedReader()
                 .use { it.readText() }
-
-            val root = JSONObject(jsonString)
-            val quotesObject = root.getJSONObject("quotes")
-
-            if (quotesObject.has(category)) {
-                val quotesArray = quotesObject.getJSONArray(category)
-                for (i in 0 until quotesArray.length()) {
-                    val item = quotesArray.getJSONObject(i)
-                    list.add(
-                        Quote(
-                            quote = item.getString("quote"),
-                            author = item.getString("author")
-                        )
-                    )
-                }
-            }
+            JSONObject(jsonString).optJSONObject("quotes")
         } catch (e: Exception) {
-            e.printStackTrace()
+            null
         }
-        return list
+    }
+
+    fun getCategories(): List<String> {
+        val quotesObject = getQuotesObject() ?: return emptyList()
+        return quotesObject.keys().asSequence().toList()
+    }
+
+    fun getQuotesByCategory(category: String): List<Quote> {
+        val quotesObject = getQuotesObject() ?: return emptyList()
+        val array = quotesObject.optJSONArray(category) ?: return emptyList()
+
+        return (0 until array.length()).map { i ->
+            val item = array.getJSONObject(i)
+            Quote(
+                quote = item.optString("quote", ""),
+                author = item.optString("author", "")
+            )
+        }
     }
 }
