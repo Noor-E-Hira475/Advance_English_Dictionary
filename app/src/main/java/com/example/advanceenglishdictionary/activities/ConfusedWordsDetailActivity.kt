@@ -1,16 +1,29 @@
 package com.example.advanceenglishdictionary.activities
 
-import android.os.Build
 import android.os.Bundle
-import android.text.Html
 import android.view.View
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.advanceenglishdictionary.dao.ConfusedWordsDao
 import com.example.advanceenglishdictionary.databinding.ActivityConfusedWordsDetailBinding
+import com.example.advanceenglishdictionary.extensions.collectState
+import com.example.advanceenglishdictionary.extensions.setBoldDefinition
+import com.example.advanceenglishdictionary.extensions.showToast
+import com.example.advanceenglishdictionary.models.ConfusedWord
+import com.example.advanceenglishdictionary.repository.ConfusedWordsRepository
+import com.example.advanceenglishdictionary.ui.state.UiState
+import com.example.advanceenglishdictionary.viewmodel.ConfusedWordsViewModel
+import com.example.advanceenglishdictionary.viewmodel.ConfusedWordsViewModelFactory
 
 class ConfusedWordsDetailActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityConfusedWordsDetailBinding
+
+    private val viewModel: ConfusedWordsViewModel by viewModels {
+        ConfusedWordsViewModelFactory(
+            ConfusedWordsRepository(ConfusedWordsDao(this))
+        )
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,43 +36,47 @@ class ConfusedWordsDetailActivity : AppCompatActivity() {
             return
         }
 
-        val dao = ConfusedWordsDao(this)
-        val wordList = dao.loadConfusedWords()
-        val word = wordList.getOrNull(index) ?: run { finish(); return }
+        observeViewModel()
+        viewModel.loadWordDetail(index)
+    }
 
-        // --- Pair title e.g. "Accept / Except" ---
+    private fun observeViewModel() {
+        collectState(viewModel.detailState) { state ->
+            when (state) {
+                is UiState.Loading -> {
+                    // Loading state
+                }
+                is UiState.Success -> {
+                    displayWordDetails(state.data)
+                }
+                is UiState.Error -> {
+                    showToast(state.message)
+                    finish()
+                }
+            }
+        }
+    }
+
+    private fun displayWordDetails(word: ConfusedWord) {
+        // Display pair title (e.g. "Accept / Except")
         binding.tvPairTitle.text = word.pair.joinToString(" / ")
 
-        // --- Definitions with first keyword bolded ---
+        // Display definitions using extension to bold the confused word / first word
         val defViews = listOf(binding.tvDefinition1, binding.tvDefinition2, binding.tvDefinition3)
-
         for (i in defViews.indices) {
             val tv = defViews[i]
             val pairWord = word.pair.getOrNull(i)
             val definition = word.definitions.getOrNull(i)
 
-            if (pairWord != null && definition != null) {
+            if (definition != null) {
                 tv.visibility = View.VISIBLE
-
-                // Bold the leading keyword in the definition text
-                val boldHtml = if (definition.startsWith(pairWord, ignoreCase = true)) {
-                    "<b>${definition.substring(0, pairWord.length)}</b>${definition.substring(pairWord.length)}"
-                } else {
-                    "<b>$pairWord</b>: $definition"
-                }
-
-                tv.text = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                    Html.fromHtml(boldHtml, Html.FROM_HTML_MODE_LEGACY)
-                } else {
-                    @Suppress("DEPRECATION")
-                    Html.fromHtml(boldHtml)
-                }
+                tv.setBoldDefinition(definition, pairWord)
             } else {
                 tv.visibility = View.GONE
             }
         }
 
-        // --- Example sentence ---
+        // Display example sentence
         binding.tvExample.text = word.example
     }
 }

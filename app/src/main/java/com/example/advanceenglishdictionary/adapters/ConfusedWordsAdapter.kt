@@ -7,7 +7,7 @@ import com.example.advanceenglishdictionary.databinding.ItemConfusedWordBinding
 import com.example.advanceenglishdictionary.models.ConfusedWord
 
 class ConfusedWordsAdapter(
-    private val words: List<ConfusedWord>,
+    private var words: List<ConfusedWord> = emptyList(),
     private val onItemClick: (ConfusedWord, Int) -> Unit
 ) : RecyclerView.Adapter<ConfusedWordsAdapter.ViewHolder>() {
 
@@ -23,7 +23,6 @@ class ConfusedWordsAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = words[position]
-        // Join pair names with ", " e.g. "Accept, Except"
         holder.binding.tvWordPair.text = item.pair.joinToString(", ")
         holder.binding.root.setOnClickListener {
             onItemClick(item, position)
@@ -31,4 +30,9 @@ class ConfusedWordsAdapter(
     }
 
     override fun getItemCount(): Int = words.size
+
+    fun updateData(newWords: List<ConfusedWord>) {
+        words = newWords
+        notifyDataSetChanged()
+    }
 }
