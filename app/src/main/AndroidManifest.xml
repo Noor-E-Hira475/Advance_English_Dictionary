@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AdvanceEnglishDictionary">
         <activity
+            android:name=".activities.IdiomsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.WordDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.ConversationActivity"
             android:exported="false" />
         <activity
@@ -60,7 +66,7 @@
             android:name=".activities.QuotesActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.IdiomsActivity"
+            android:name=".activities.ThesaurusActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
