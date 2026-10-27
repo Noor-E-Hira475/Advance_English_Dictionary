@@ -50,6 +50,9 @@ class ConfusedWordsActivity : AppCompatActivity() {
     private fun observeViewModel() {
         collectState(viewModel.uiState) { state ->
             when (state) {
+                is UiState.Idle -> {
+                    // Nothing to show yet
+                }
                 is UiState.Loading -> {
                     // Loading state
                 }

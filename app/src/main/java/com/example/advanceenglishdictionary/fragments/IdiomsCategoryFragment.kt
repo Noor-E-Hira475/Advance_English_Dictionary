@@ -68,6 +68,7 @@ class IdiomsCategoryFragment : Fragment() {
             viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
                 viewModel.uiState.collect { state ->
                     when (state) {
+                        is UiState.Idle -> Unit
                         is UiState.Loading -> showLoading()
                         is UiState.Success -> showSuccess(state.data)
                         is UiState.Error -> showError(state.message)

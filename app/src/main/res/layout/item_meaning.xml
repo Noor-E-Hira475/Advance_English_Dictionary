@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_meaning.xml
+     One Meaning block (part of speech + its definitions list).
+     Maps to: models/api/DictionaryResponse.Meaning
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+
+    <!-- meaning.partOfSpeech badge — e.g. "noun", "verb" -->
+    <TextView
+        android:id="@+id/tvPartOfSpeech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_pill"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="4dp"
+        android:textColor="#052A63"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <!-- meaning.definitions → driven by DefinitionAdapter -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDefinitions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:nestedScrollingEnabled="false" />
+
+</LinearLayout>

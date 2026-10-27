@@ -72,6 +72,9 @@
             android:exported="false" />
         <activity
             android:name=".activities.DictionaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OnlineDictionaryActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

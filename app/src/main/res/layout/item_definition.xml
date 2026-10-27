@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_definition.xml
+     One definition row inside a Meaning block.
+     Maps to: models/api/DictionaryResponse.Definition
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <!-- Bullet + definition text on same line -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• "
+            android:textColor="#052A63"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- definition.definition -->
+        <TextView
+            android:id="@+id/tvDefinition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:textColor="#1E293B"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- definition.example — hidden if null -->
+    <TextView
+        android:id="@+id/tvExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="14dp"
+        android:textColor="#64748B"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+    <!-- definition.synonyms — hidden if empty -->
+    <TextView
+        android:id="@+id/tvSynonyms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="14dp"
+        android:textColor="#0D7A3E"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <!-- definition.antonyms — hidden if empty -->
+    <TextView
+        android:id="@+id/tvAntonyms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="14dp"
+        android:textColor="#B91C1C"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</LinearLayout>
